@@ -12,7 +12,7 @@ The recording uses genuine historical Microsoft evidence and a recorded AI resea
 
 Python calculates the financial metrics. An optional language model interprets selected evidence. The genuine recorded demonstration works without an API key or a fresh model request.
 
-Screenshots are genuine 20 and 21 October 2026 captures, checked against the current recorded workflow. [Capture provenance](docs/assets/README.md).
+Screenshots are genuine October 2026 captures, checked against the current recorded workflow. [Capture provenance](docs/assets/README.md).
 
 [Two-minute demonstration](docs/V1_1_DEMONSTRATION.md) · [Research evaluation](ALPHALENS_V1_1_EVALUATION.md) · [Code and methodology](EXPLAIN_THE_CODE.md)
 
