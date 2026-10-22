@@ -1,0 +1,573 @@
+{
+  "feature": "brief",
+  "evaluation_type": "offline focused bundle replay; no live or qualitative score",
+  "source_fingerprint": "ba92e46a5aeb5852e564b3af6f2c8e68c44e39b5bff2a907760e32b7806f2783",
+  "schema_passed": true,
+  "schema_issues": [],
+  "schema_issues_truncated": false,
+  "complete_local_validation_passed": true,
+  "live_request_executed_by_evaluator": false,
+  "diagnostic_only": false,
+  "claims": [
+    {
+      "path": "performance[0]",
+      "status": "evidence_checked",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "performance[1]",
+      "status": "evidence_checked",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "investment_considerations[0]",
+      "status": "interpretation",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review.",
+        "Forward-looking disclosure: check management attribution, conditional wording and the quoted expectation; this is not an observed annual result.",
+        "Capital attribution review: the financial amount is total corporate cash PP&E, not an AI-specific breakdown.",
+        "Check that the selected quote supports every clause, rather than merely existing in a relevant source."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "investment_considerations[1]",
+      "status": "interpretation",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review.",
+        "Forward-looking disclosure: check management attribution, conditional wording and the quoted expectation; this is not an observed annual result.",
+        "Check that the selected quote supports every clause, rather than merely existing in a relevant source."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "risks[0]",
+      "status": "interpretation",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review.",
+        "Forward-looking disclosure: check management attribution, conditional wording and the quoted expectation; this is not an observed annual result.",
+        "Check that the selected quote supports every clause, rather than merely existing in a relevant source."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "missing_information[0]",
+      "status": "question",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "missing_information[1]",
+      "status": "question",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "missing_information[2]",
+      "status": "question",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "executive_summary[0]",
+      "status": "interpretation",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review.",
+        "Check that the selected quote supports every clause, rather than merely existing in a relevant source."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "executive_summary[1]",
+      "status": "interpretation",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review.",
+        "Causal/forward-looking language: distinguish management disclosure, expectation and tentative analyst inference.",
+        "Check that the selected quote supports every clause, rather than merely existing in a relevant source."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "what_matters_most[0]",
+      "status": "interpretation",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review.",
+        "Check that the selected quote supports every clause, rather than merely existing in a relevant source."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "what_matters_most[1]",
+      "status": "interpretation",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review.",
+        "Causal/forward-looking language: distinguish management disclosure, expectation and tentative analyst inference.",
+        "Check that the selected quote supports every clause, rather than merely existing in a relevant source."
+      ],
+      "semantic_review": "requires_analyst_review"
+    },
+    {
+      "path": "capital_allocation[0]",
+      "status": "evidence_checked",
+      "schema_issues": [],
+      "issues": [],
+      "review_flags": [
+        "Claim meaning, materiality and completeness require analyst review."
+      ],
+      "semantic_review": "requires_analyst_review"
+    }
+  ],
+  "claim_counts": {
+    "evidence_checked": 3,
+    "interpretation": 7,
+    "question": 3
+  },
+  "financial_citations": [
+    {
+      "claim_path": "performance[0]",
+      "source_id": "2025:operating_cash_flow",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "performance[0]",
+      "source_id": "2026:operating_cash_flow",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "performance[0]",
+      "source_id": "2025:capital_expenditure",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "performance[0]",
+      "source_id": "2026:capital_expenditure",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "performance[1]",
+      "source_id": "2025:revenue",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "performance[1]",
+      "source_id": "2026:revenue",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "performance[1]",
+      "source_id": "2025:operating_income",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "performance[1]",
+      "source_id": "2026:operating_income",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "investment_considerations[0]",
+      "source_id": "2025:operating_cash_flow",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "investment_considerations[0]",
+      "source_id": "2026:operating_cash_flow",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "investment_considerations[0]",
+      "source_id": "2025:capital_expenditure",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "investment_considerations[0]",
+      "source_id": "2026:capital_expenditure",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "investment_considerations[1]",
+      "source_id": "2025:revenue",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "investment_considerations[1]",
+      "source_id": "2026:revenue",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "investment_considerations[1]",
+      "source_id": "2025:operating_income",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "investment_considerations[1]",
+      "source_id": "2026:operating_income",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "executive_summary[0]",
+      "source_id": "2025:operating_cash_flow",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "executive_summary[0]",
+      "source_id": "2026:operating_cash_flow",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "executive_summary[0]",
+      "source_id": "2025:capital_expenditure",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "executive_summary[0]",
+      "source_id": "2026:capital_expenditure",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "executive_summary[1]",
+      "source_id": "2025:revenue",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "executive_summary[1]",
+      "source_id": "2026:revenue",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "executive_summary[1]",
+      "source_id": "2025:operating_income",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "executive_summary[1]",
+      "source_id": "2026:operating_income",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "what_matters_most[0]",
+      "source_id": "2025:operating_cash_flow",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "what_matters_most[0]",
+      "source_id": "2026:operating_cash_flow",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "what_matters_most[0]",
+      "source_id": "2025:capital_expenditure",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "what_matters_most[0]",
+      "source_id": "2026:capital_expenditure",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "what_matters_most[1]",
+      "source_id": "2025:revenue",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "what_matters_most[1]",
+      "source_id": "2026:revenue",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "what_matters_most[1]",
+      "source_id": "2025:operating_income",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "what_matters_most[1]",
+      "source_id": "2026:operating_income",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "capital_allocation[0]",
+      "source_id": "2025:operating_cash_flow",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "capital_allocation[0]",
+      "source_id": "2026:operating_cash_flow",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "capital_allocation[0]",
+      "source_id": "2025:capital_expenditure",
+      "matched": true,
+      "issues": []
+    },
+    {
+      "claim_path": "capital_allocation[0]",
+      "source_id": "2026:capital_expenditure",
+      "matched": true,
+      "issues": []
+    }
+  ],
+  "passage_citations": [
+    {
+      "claim_path": "investment_considerations[0]",
+      "source_id": "sec:838fe0caa8c807af7d81b902",
+      "quote_membership_matched": true,
+      "issues": [],
+      "citation_relevance": "requires_analyst_review"
+    },
+    {
+      "claim_path": "investment_considerations[1]",
+      "source_id": "sec:2b952351bdb846469a21de3f",
+      "quote_membership_matched": true,
+      "issues": [],
+      "citation_relevance": "requires_analyst_review"
+    },
+    {
+      "claim_path": "risks[0]",
+      "source_id": "sec:56d67b25b672d6b595978ea9",
+      "quote_membership_matched": true,
+      "issues": [],
+      "citation_relevance": "requires_analyst_review"
+    },
+    {
+      "claim_path": "executive_summary[0]",
+      "source_id": "sec:838fe0caa8c807af7d81b902",
+      "quote_membership_matched": true,
+      "issues": [],
+      "citation_relevance": "requires_analyst_review"
+    },
+    {
+      "claim_path": "executive_summary[1]",
+      "source_id": "sec:2b952351bdb846469a21de3f",
+      "quote_membership_matched": true,
+      "issues": [],
+      "citation_relevance": "requires_analyst_review"
+    },
+    {
+      "claim_path": "what_matters_most[0]",
+      "source_id": "sec:838fe0caa8c807af7d81b902",
+      "quote_membership_matched": true,
+      "issues": [],
+      "citation_relevance": "requires_analyst_review"
+    },
+    {
+      "claim_path": "what_matters_most[1]",
+      "source_id": "sec:2b952351bdb846469a21de3f",
+      "quote_membership_matched": true,
+      "issues": [],
+      "citation_relevance": "requires_analyst_review"
+    }
+  ],
+  "mechanical_counts": {
+    "financial_citations_checked": 36,
+    "financial_citations_matched": 36,
+    "passage_quotes_checked": 7,
+    "passage_quotes_matched": 7
+  },
+  "empty_sections": [
+    "business_developments"
+  ],
+  "qualitative_assessments": [
+    {
+      "dimension": "financial_accuracy",
+      "method": "deterministic plus analyst review",
+      "criteria": "Every cited figure, unit and annual period matches its source; calculated metrics retain aligned input facts. Matching citations do not prove associated prose.",
+      "manual_levels": {
+        "not_assessed": "No explicit reviewer assessment has been recorded.",
+        "does_not_meet": "A cited amount, unit, period or calculated relationship is materially wrong.",
+        "partial": "Cited amounts match, but scope, annual comparability or calculation provenance remains unresolved.",
+        "meets": "Cited amounts and calculation inputs match, periods align, and scope/definitions have been inspected."
+      },
+      "assessment": "not_assessed",
+      "score": null
+    },
+    {
+      "dimension": "evidence_traceability",
+      "method": "deterministic",
+      "criteria": "Every material fact or inference has a known issuer-bound source; quotations are contiguous source spans; all required citation fields are present.",
+      "manual_levels": {
+        "not_assessed": "No explicit reviewer assessment has been recorded.",
+        "does_not_meet": "Material assertions have fabricated, missing or unusable references.",
+        "partial": "Some assertions trace to evidence, but individual clauses or derived inputs remain untraceable.",
+        "meets": "Each material factual assertion has an inspectable issuer-bound record with retained source provenance."
+      },
+      "assessment": "not_assessed",
+      "score": null
+    },
+    {
+      "dimension": "citation_relevance",
+      "method": "analyst judgement",
+      "criteria": "Read each selected quote and source context. It must support every factual clause, the business scope, timing and strength of the claim. Existing source IDs alone are insufficient.",
+      "manual_levels": {
+        "not_assessed": "No explicit reviewer assessment has been recorded.",
+        "does_not_meet": "A quotation exists but contradicts or does not support a material associated assertion.",
+        "partial": "Citations support some clauses, while scope, timing or omitted qualifications require clarification.",
+        "meets": "The reviewer read the source context and confirmed support for each factual clause and its qualifications."
+      },
+      "assessment": "not_assessed",
+      "score": null
+    },
+    {
+      "dimension": "comparative_analysis",
+      "method": "deterministic cues plus analyst judgement",
+      "criteria": "Trend claims retain consecutive comparative observations; acceleration needs consecutive growth intervals. Review whether material Python-identified tensions are explained rather than omitted.",
+      "manual_levels": {
+        "not_assessed": "No explicit reviewer assessment has been recorded.",
+        "does_not_meet": "Comparisons contradict annual figures, mix periods or omit the central material tension.",
+        "partial": "Comparisons are mechanically sound but important drivers or competing explanations remain unexplored.",
+        "meets": "Relevant annual changes and deterministic tensions are sourced and economically interpreted with limitations."
+      },
+      "assessment": "not_assessed",
+      "score": null
+    },
+    {
+      "dimension": "investment_insight",
+      "method": "analyst judgement",
+      "criteria": "Connect sourced operating developments to cash economics, reinvestment and competitive mechanisms; distinguish corporate cash PP&E from AI attribution and identify what evidence would change the interpretation.",
+      "manual_levels": {
+        "not_assessed": "No explicit reviewer assessment has been recorded.",
+        "does_not_meet": "The report restates disclosures or claims durable returns without an economic mechanism.",
+        "partial": "Some mechanisms link operations to cash returns, but attribution or decision-relevant evidence is incomplete.",
+        "meets": "Company-specific mechanisms, cash economics and critical unresolved evidence are tied to a testable interpretation."
+      },
+      "assessment": "not_assessed",
+      "score": null
+    },
+    {
+      "dimension": "analytical_balance",
+      "method": "analyst judgement",
+      "criteria": "State plausible competing explanations, missing evidence and uncertainty. Do not manufacture contradictory evidence or equate spending with attractive incremental ROIC.",
+      "manual_levels": {
+        "not_assessed": "No explicit reviewer assessment has been recorded.",
+        "does_not_meet": "Unsupported certainties, invented counterarguments or missing downside dominate the conclusion.",
+        "partial": "Uncertainty is acknowledged, but competing explanations or invalidation conditions are generic.",
+        "meets": "Plausible alternative explanations, genuine contrary evidence and observable uncertainty are explicitly distinguished."
+      },
+      "assessment": "not_assessed",
+      "score": null
+    },
+    {
+      "dimension": "schema_reliability",
+      "method": "deterministic",
+      "criteria": "Complete response decodes without repair and satisfies its declared transport and local Pydantic contracts. Python-owned classifications must not be invented as model content.",
+      "manual_levels": {
+        "not_assessed": "No explicit reviewer assessment has been recorded.",
+        "does_not_meet": "A response is malformed, missing required fields or accepted after substantive repair.",
+        "partial": "The schema passes, but optional analytical sections are incomplete or generation reliability remains untested.",
+        "meets": "The complete response passes the intended strict contract without inferred substantive fields; live provenance is recorded."
+      },
+      "assessment": "not_assessed",
+      "score": null
+    },
+    {
+      "dimension": "practical_usefulness",
+      "method": "analyst judgement",
+      "criteria": "A reviewer can trace the central financial tension, distinguish fact from interpretation and prioritise specific diligence questions. A disclosure summary alone is insufficient for an investment recommendation.",
+      "manual_levels": {
+        "not_assessed": "No explicit reviewer assessment has been recorded.",
+        "does_not_meet": "An analyst cannot trace claims or identify a useful next research decision.",
+        "partial": "The output is an inspectable starting summary, but prioritisation or investment implications remain shallow.",
+        "meets": "An analyst can inspect sources, understand the central tension and prioritise specific thesis-changing diligence."
+      },
+      "assessment": "not_assessed",
+      "score": null
+    }
+  ],
+  "limitations": [
+    "Per-claim inspection of a rejected report is not whole-report acceptance.",
+    "Exact value, period and quote matches do not establish semantic entailment, causal truth or investment merit.",
+    "Lexical comparison and attribution checks are conservative cues, not comprehensive natural-language understanding.",
+    "No model accuracy percentage, analyst-quality score, productivity saving or investment performance is inferred."
+  ],
+  "parsing_passed": true,
+  "bundle_integrity_and_replay_passed": true,
+  "contract": "focused_v3",
+  "transport": "gemini_flat_json",
+  "transport_schema_passed": true,
+  "compact_schema_passed": true,
+  "deterministic_assembly_reproduced": true,
+  "original_model": "gemini-3.5-flash-lite",
+  "original_usage": {
+    "input_tokens": 5381,
+    "output_tokens": 560,
+    "total_tokens": 5941
+  },
+  "original_sdk_validation_latency_seconds": 3.094,
+  "observed_financial_ids": [
+    "2026:cash_flow_divergence",
+    "2026:revenue_profit_growth",
+    "2026:investment_intensity",
+    "2026:earnings_conversion_tension",
+    "2026:cash_investment_tension"
+  ],
+  "historical_run_notice": "Model, tokens and latency describe the saved original request, not this offline replay."
+}

@@ -1,0 +1,72 @@
+{
+  "approval": "User authorised necessary completion: do what you have to do to make it work you have my agreement for all; finish it. One finding-only Microsoft request; same Free Tier; no billing, fallback or retries.",
+  "started_at": "2026-10-18T09:20:28.206208+00:00",
+  "provider": "gemini",
+  "requested_model": "gemini-3.5-flash-lite",
+  "project_tier": "Owner-confirmed Free Tier, billing disabled; not inferable from API key",
+  "maximum_http_requests": 1,
+  "http_requests_attempted": 1,
+  "automatic_retries": false,
+  "provider_fallback": false,
+  "billing_changes": false,
+  "max_output_tokens": 3200,
+  "status": "mechanically_validated_awaiting_analyst_review",
+  "request_sha256": "545f82f1fb34d061bd7e82011daef3f6a6c282ca59babed0fdd46aa2dca6c7e7",
+  "credentials_or_headers_recorded": false,
+  "http_status": 200,
+  "http_response_latency_seconds": 2.265,
+  "reported_model": "gemini-3.5-flash-lite",
+  "reported_usage": {
+    "completion_tokens": 560,
+    "prompt_tokens": 5381,
+    "total_tokens": 5941
+  },
+  "finish_reasons": [
+    "stop"
+  ],
+  "unsupported_claims": 0,
+  "claim_counts": {
+    "evidence_checked": 3,
+    "interpretation": 7,
+    "question": 3
+  },
+  "diagnostics": {
+    "numerical_validation_result": "passed",
+    "source_validation_result": "passed",
+    "timestamp_utc": "2026-10-18T09:20:28.384213+00:00",
+    "operation": "research_briefing",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "status": "completed",
+    "http_status": null,
+    "latency_seconds": 3.094,
+    "usage": {
+      "input_tokens": 5381,
+      "output_tokens": 560,
+      "total_tokens": 5941
+    },
+    "parsing_result": "passed",
+    "schema_validation_result": "passed",
+    "validation_stage": "output_schema",
+    "validation_issues": [],
+    "issues_truncated": false,
+    "warning_codes": [
+      "semantic_review_required"
+    ]
+  },
+  "normalized_usage": {
+    "input_tokens": 5381,
+    "output_tokens": 560,
+    "total_tokens": 5941
+  },
+  "adapter_latency_seconds": 3.094,
+  "total_evaluation_latency_seconds": 3.359,
+  "finished_at": "2026-10-18T09:20:31.626962+00:00",
+  "approval_exhausted": true,
+  "cost": {
+    "expected_usd": 0,
+    "basis": "Owner-confirmed Free Tier without billing",
+    "provider_reported_cost": null,
+    "note": "The API does not report actual monetary charges"
+  }
+}

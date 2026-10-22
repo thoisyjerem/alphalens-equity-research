@@ -1,0 +1,33 @@
+{
+  "primary_interpretation": "Operating cash flow expanded significantly, supported by higher cash collections from customers and lower income-tax payments, while free cash flow contracted as cash purchases of property and equipment increased substantially.",
+  "primary_passage_ids": [
+    "sec:838fe0caa8c807af7d81b902"
+  ],
+  "primary_alternative_explanation": "The increase in operating cash flow could reflect temporary working capital timing shifts rather than sustainable cash generation improvement.",
+  "primary_limitations": [
+    "Calculated metrics use annual reported figures and may include later-filed restatements; this is not point-in-time data.",
+    "Cash capex is total company cash purchases of PP&E; it is not an AI-specific or lease-inclusive investment measure."
+  ],
+  "additional_observation_id": "2026:revenue_profit_growth",
+  "additional_interpretation": "Both revenue and operating income advanced notably, driven by expansion across key business segments including Productivity and Business Processes and Intelligent Cloud, aided by modest favorable currency movements.",
+  "additional_passage_ids": [
+    "sec:2b952351bdb846469a21de3f"
+  ],
+  "additional_alternative_explanation": "Reported operating profit growth may rely partially on non-recurring items or specific segment mix shifts rather than broad portfolio strength.",
+  "additional_limitations": [
+    "Matching concept sets are a minimum comparability check, not proof of unchanged economic scope; acquisitions and accounting changes require analyst review.",
+    "Only bounded passages from selected annual filing sections are provided; absence here is not non-disclosure by the company."
+  ],
+  "risk_interpretation": "Infrastructure constraints, power availability limitations, and utility delays could restrict future datacenter expansion and capacity deployment.",
+  "risk_passage_ids": [
+    "sec:56d67b25b672d6b595978ea9"
+  ],
+  "risk_limitations": [
+    "Only bounded passages from selected annual filing sections are provided; absence here is not non-disclosure by the company."
+  ],
+  "unanswered_questions": [
+    "How sustainable are the working capital benefits and lower cash income-tax payments observed in operating cash flow?",
+    "What specific capacity utilization rates and monetization milestones accompany the rising capital expenditure program?",
+    "Will power availability bottlenecks constrain future datacenter deployment schedules?"
+  ]
+}

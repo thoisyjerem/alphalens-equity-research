@@ -1,0 +1,24 @@
+{
+  "notice": "Independent deterministic recheck of assembled citations, not semantic proof",
+  "financial_citation_occurrences": 44,
+  "unique_financial_source_ids": 8,
+  "all_values_units_and_periods_exact": true,
+  "assembled_quotation_occurrences": 6,
+  "unique_passage_ids": 4,
+  "all_quotations_exact": true,
+  "fcf_identity_checked_with_decimal": true,
+  "annual_usd_inputs": {
+    "2025": {
+      "operating_cash_flow": "136162000000.0",
+      "capital_expenditure": "64551000000.0",
+      "free_cash_flow": "71611000000.0"
+    },
+    "2026": {
+      "operating_cash_flow": "182935000000.0",
+      "capital_expenditure": "115948000000.0",
+      "free_cash_flow": "66987000000.0"
+    }
+  },
+  "unsupported_count": 0,
+  "new_api_requests_during_audit": 0
+}

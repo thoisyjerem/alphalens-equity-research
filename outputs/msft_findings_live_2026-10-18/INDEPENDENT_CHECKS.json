@@ -1,0 +1,461 @@
+{
+  "review_status": "mechanical_recheck_passed_semantic_caveats_pending_human_review",
+  "reviewer": "AI-assisted independent review; not human analyst approval",
+  "method": {
+    "inputs": [
+      "TRANSPORT_OUTPUT.json",
+      "MODEL_INTERPRETATION.json",
+      "SOURCE_CATALOG.json",
+      "FOCUSED_CONTEXT.json",
+      "RESEARCH_BRIEFING.json",
+      "RESEARCH_BRIEFING.md",
+      "REQUEST_LEDGER.json"
+    ],
+    "financial_citations": "Separate Decimal equality and exact unit/fiscal-year/start/end checks against the saved source catalogue; no rounding tolerance.",
+    "quotations": "Whitespace-normalized exact substring membership against saved passage records. This is membership, not semantic entailment.",
+    "calculations": "Separate Decimal arithmetic on saved source values. No LLM calculations and no new SEC retrieval.",
+    "semantic_review": "AI-assisted reviewer judgments about actual claim meaning and source relevance; not mechanically proven and not human approval.",
+    "new_api_requests": 0,
+    "fresh_sec_requests": 0,
+    "raw_or_assembled_artifacts_modified": false,
+    "credentials_read_or_recorded": false
+  },
+  "request_record": {
+    "http_status": 200,
+    "model": "gemini-3.5-flash-lite",
+    "http_response_latency_seconds": 2.265,
+    "adapter_latency_seconds": 3.094,
+    "total_evaluation_latency_seconds": 3.359,
+    "usage": {
+      "input_tokens": 5381,
+      "output_tokens": 560,
+      "total_tokens": 5941
+    },
+    "http_requests_attempted": 1
+  },
+  "source_snapshot": {
+    "company": {
+      "ticker": "MSFT",
+      "name": "MICROSOFT CORP",
+      "cik": "0000789019"
+    },
+    "mode": "live",
+    "retrieved_at": "2026-10-16T23:55:34.392903+00:00",
+    "annual_periods": [
+      {
+        "fiscal_year": 2025,
+        "period_start": "2024-07-01",
+        "period_end": "2025-06-30"
+      },
+      {
+        "fiscal_year": 2026,
+        "period_start": "2025-07-01",
+        "period_end": "2026-06-30"
+      }
+    ]
+  },
+  "financial_citation_occurrences": 36,
+  "unique_financial_source_ids": [
+    "2025:capital_expenditure",
+    "2025:operating_cash_flow",
+    "2025:operating_income",
+    "2025:revenue",
+    "2026:capital_expenditure",
+    "2026:operating_cash_flow",
+    "2026:operating_income",
+    "2026:revenue"
+  ],
+  "quotation_occurrences": 7,
+  "unique_passage_ids": [
+    "sec:2b952351bdb846469a21de3f",
+    "sec:56d67b25b672d6b595978ea9",
+    "sec:838fe0caa8c807af7d81b902"
+  ],
+  "mismatches": [],
+  "financial_checks": [
+    {
+      "section": "performance",
+      "index": 0,
+      "source_id": "2025:operating_cash_flow",
+      "exact": true
+    },
+    {
+      "section": "performance",
+      "index": 0,
+      "source_id": "2026:operating_cash_flow",
+      "exact": true
+    },
+    {
+      "section": "performance",
+      "index": 0,
+      "source_id": "2025:capital_expenditure",
+      "exact": true
+    },
+    {
+      "section": "performance",
+      "index": 0,
+      "source_id": "2026:capital_expenditure",
+      "exact": true
+    },
+    {
+      "section": "performance",
+      "index": 1,
+      "source_id": "2025:revenue",
+      "exact": true
+    },
+    {
+      "section": "performance",
+      "index": 1,
+      "source_id": "2026:revenue",
+      "exact": true
+    },
+    {
+      "section": "performance",
+      "index": 1,
+      "source_id": "2025:operating_income",
+      "exact": true
+    },
+    {
+      "section": "performance",
+      "index": 1,
+      "source_id": "2026:operating_income",
+      "exact": true
+    },
+    {
+      "section": "investment_considerations",
+      "index": 0,
+      "source_id": "2025:operating_cash_flow",
+      "exact": true
+    },
+    {
+      "section": "investment_considerations",
+      "index": 0,
+      "source_id": "2026:operating_cash_flow",
+      "exact": true
+    },
+    {
+      "section": "investment_considerations",
+      "index": 0,
+      "source_id": "2025:capital_expenditure",
+      "exact": true
+    },
+    {
+      "section": "investment_considerations",
+      "index": 0,
+      "source_id": "2026:capital_expenditure",
+      "exact": true
+    },
+    {
+      "section": "investment_considerations",
+      "index": 1,
+      "source_id": "2025:revenue",
+      "exact": true
+    },
+    {
+      "section": "investment_considerations",
+      "index": 1,
+      "source_id": "2026:revenue",
+      "exact": true
+    },
+    {
+      "section": "investment_considerations",
+      "index": 1,
+      "source_id": "2025:operating_income",
+      "exact": true
+    },
+    {
+      "section": "investment_considerations",
+      "index": 1,
+      "source_id": "2026:operating_income",
+      "exact": true
+    },
+    {
+      "section": "executive_summary",
+      "index": 0,
+      "source_id": "2025:operating_cash_flow",
+      "exact": true
+    },
+    {
+      "section": "executive_summary",
+      "index": 0,
+      "source_id": "2026:operating_cash_flow",
+      "exact": true
+    },
+    {
+      "section": "executive_summary",
+      "index": 0,
+      "source_id": "2025:capital_expenditure",
+      "exact": true
+    },
+    {
+      "section": "executive_summary",
+      "index": 0,
+      "source_id": "2026:capital_expenditure",
+      "exact": true
+    },
+    {
+      "section": "executive_summary",
+      "index": 1,
+      "source_id": "2025:revenue",
+      "exact": true
+    },
+    {
+      "section": "executive_summary",
+      "index": 1,
+      "source_id": "2026:revenue",
+      "exact": true
+    },
+    {
+      "section": "executive_summary",
+      "index": 1,
+      "source_id": "2025:operating_income",
+      "exact": true
+    },
+    {
+      "section": "executive_summary",
+      "index": 1,
+      "source_id": "2026:operating_income",
+      "exact": true
+    },
+    {
+      "section": "what_matters_most",
+      "index": 0,
+      "source_id": "2025:operating_cash_flow",
+      "exact": true
+    },
+    {
+      "section": "what_matters_most",
+      "index": 0,
+      "source_id": "2026:operating_cash_flow",
+      "exact": true
+    },
+    {
+      "section": "what_matters_most",
+      "index": 0,
+      "source_id": "2025:capital_expenditure",
+      "exact": true
+    },
+    {
+      "section": "what_matters_most",
+      "index": 0,
+      "source_id": "2026:capital_expenditure",
+      "exact": true
+    },
+    {
+      "section": "what_matters_most",
+      "index": 1,
+      "source_id": "2025:revenue",
+      "exact": true
+    },
+    {
+      "section": "what_matters_most",
+      "index": 1,
+      "source_id": "2026:revenue",
+      "exact": true
+    },
+    {
+      "section": "what_matters_most",
+      "index": 1,
+      "source_id": "2025:operating_income",
+      "exact": true
+    },
+    {
+      "section": "what_matters_most",
+      "index": 1,
+      "source_id": "2026:operating_income",
+      "exact": true
+    },
+    {
+      "section": "capital_allocation",
+      "index": 0,
+      "source_id": "2025:operating_cash_flow",
+      "exact": true
+    },
+    {
+      "section": "capital_allocation",
+      "index": 0,
+      "source_id": "2026:operating_cash_flow",
+      "exact": true
+    },
+    {
+      "section": "capital_allocation",
+      "index": 0,
+      "source_id": "2025:capital_expenditure",
+      "exact": true
+    },
+    {
+      "section": "capital_allocation",
+      "index": 0,
+      "source_id": "2026:capital_expenditure",
+      "exact": true
+    }
+  ],
+  "quotation_checks": [
+    {
+      "section": "investment_considerations",
+      "index": 0,
+      "source_id": "sec:838fe0caa8c807af7d81b902",
+      "exact_normalized_quote_membership": true
+    },
+    {
+      "section": "investment_considerations",
+      "index": 1,
+      "source_id": "sec:2b952351bdb846469a21de3f",
+      "exact_normalized_quote_membership": true
+    },
+    {
+      "section": "risks",
+      "index": 0,
+      "source_id": "sec:56d67b25b672d6b595978ea9",
+      "exact_normalized_quote_membership": true
+    },
+    {
+      "section": "executive_summary",
+      "index": 0,
+      "source_id": "sec:838fe0caa8c807af7d81b902",
+      "exact_normalized_quote_membership": true
+    },
+    {
+      "section": "executive_summary",
+      "index": 1,
+      "source_id": "sec:2b952351bdb846469a21de3f",
+      "exact_normalized_quote_membership": true
+    },
+    {
+      "section": "what_matters_most",
+      "index": 0,
+      "source_id": "sec:838fe0caa8c807af7d81b902",
+      "exact_normalized_quote_membership": true
+    },
+    {
+      "section": "what_matters_most",
+      "index": 1,
+      "source_id": "sec:2b952351bdb846469a21de3f",
+      "exact_normalized_quote_membership": true
+    }
+  ],
+  "annual_decimal_reconciliation": [
+    {
+      "fiscal_year": 2025,
+      "period_start": "2024-07-01",
+      "period_end": "2025-06-30",
+      "unit": "USD",
+      "operating_cash_flow": "136162000000.0",
+      "cash_ppe_purchases": "64551000000.0",
+      "computed_free_cash_flow": "71611000000.0",
+      "reported_pipeline_free_cash_flow": "71611000000.0",
+      "fcf_identity_exact": true,
+      "revenue": "281724000000.0",
+      "operating_income": "128528000000.0",
+      "operating_margin": "0.4562195624085984864619272763",
+      "cash_ppe_to_ocf": "0.4740749988983710580044358925"
+    },
+    {
+      "fiscal_year": 2026,
+      "period_start": "2025-07-01",
+      "period_end": "2026-06-30",
+      "unit": "USD",
+      "operating_cash_flow": "182935000000.0",
+      "cash_ppe_purchases": "115948000000.0",
+      "computed_free_cash_flow": "66987000000.0",
+      "reported_pipeline_free_cash_flow": "66987000000.0",
+      "fcf_identity_exact": true,
+      "revenue": "331839000000.0",
+      "operating_income": "155237000000.0",
+      "operating_margin": "0.4678081840892722073053498835",
+      "cash_ppe_to_ocf": "0.6338207560062317216497663104"
+    }
+  ],
+  "annual_growth_percent": [
+    {
+      "metric": "revenue",
+      "prior_source_id": "2025:revenue",
+      "current_source_id": "2026:revenue",
+      "formula": "(current / prior - 1) * 100",
+      "percent": "17.78868679984665843165651490"
+    },
+    {
+      "metric": "operating_income",
+      "prior_source_id": "2025:operating_income",
+      "current_source_id": "2026:operating_income",
+      "formula": "(current / prior - 1) * 100",
+      "percent": "20.78068592057761732851985560"
+    },
+    {
+      "metric": "operating_cash_flow",
+      "prior_source_id": "2025:operating_cash_flow",
+      "current_source_id": "2026:operating_cash_flow",
+      "formula": "(current / prior - 1) * 100",
+      "percent": "34.35099366930567999882492910"
+    },
+    {
+      "metric": "capital_expenditure",
+      "prior_source_id": "2025:capital_expenditure",
+      "current_source_id": "2026:capital_expenditure",
+      "formula": "(current / prior - 1) * 100",
+      "percent": "79.62231413920775820668928440"
+    },
+    {
+      "metric": "free_cash_flow",
+      "prior_source_id": "2025:free_cash_flow",
+      "current_source_id": "2026:free_cash_flow",
+      "formula": "(current / prior - 1) * 100",
+      "percent": "-6.457108544776640460264484510"
+    }
+  ],
+  "passage_identity": {
+    "sec:2b952351bdb846469a21de3f": {
+      "item": "7",
+      "report_date": "2026-06-30",
+      "accession": "0001193125-26-323660",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "source_url": null
+    },
+    "sec:56d67b25b672d6b595978ea9": {
+      "item": "1A",
+      "report_date": "2026-06-30",
+      "accession": "0001193125-26-323660",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "source_url": null
+    },
+    "sec:838fe0caa8c807af7d81b902": {
+      "item": "7",
+      "report_date": "2026-06-30",
+      "accession": "0001193125-26-323660",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "source_url": null
+    }
+  },
+  "ai_assisted_semantic_findings": [
+    {
+      "id": "working_capital_premise",
+      "assessment": "not established by cited evidence",
+      "location": "primary_alternative_explanation and unanswered_questions[0]",
+      "detail": "Temporary working-capital timing is a plausible hypothesis, but higher customer collections/lower cash taxes do not themselves establish an observed working-capital release. The first question presupposes such benefits."
+    },
+    {
+      "id": "operating_profit_nonrecurring_items",
+      "assessment": "unsupported operating-profit hypothesis requiring investigation",
+      "location": "additional_alternative_explanation",
+      "detail": "The cited passage identifies OpenAI investment gains affecting net income/EPS, not operating income. Do not use those gains as evidence that operating-profit growth is non-recurring. Segment mix is plausible but untested."
+    },
+    {
+      "id": "revenue_driver_scope",
+      "assessment": "partially supported causal summary",
+      "location": "additional_interpretation",
+      "detail": "The cited window expressly supports operating-income segment drivers and favorable FX for revenue/OI. It does not independently establish every revenue-segment driver in the combined sentence."
+    },
+    {
+      "id": "generic_limitations",
+      "assessment": "valid safeguards but limited research specificity",
+      "location": "all limitations",
+      "detail": "Limitations mostly repeat Python data warnings rather than identifying evidence that would distinguish the proposed economic explanations."
+    }
+  ],
+  "demonstration_assessment": {
+    "supervised_portfolio_workflow": "suitable with prominent review notes and pending human approval",
+    "professional_investment_conclusion": "not established",
+    "repeated_run_model_reliability": "not established by this single successful request",
+    "ai_specific_capex_roic_or_valuation": "not established and no such conclusion identified in actual output"
+  }
+}

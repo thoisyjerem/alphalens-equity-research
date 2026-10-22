@@ -1,0 +1,97 @@
+{
+  "origin": "Reviewer Python calculations from retained SEC table; NOT Gemini output or new production metrics",
+  "source_id": "sec:3eb3eccc7d1065f444ebdf69",
+  "source_unit": "USD millions",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+  "annual_periods": [
+    {
+      "fiscal_year": 2025,
+      "start": "2024-07-01",
+      "end": "2025-06-30"
+    },
+    {
+      "fiscal_year": 2026,
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    }
+  ],
+  "segment_rows": {
+    "Productivity and Business Processes": {
+      "2026": {
+        "reported_inputs": {
+          "revenue": "139996",
+          "cost_of_revenue": "25017",
+          "operating_expenses": "31100",
+          "operating_income": "83879"
+        },
+        "operating_margin_pct": "59.91528329380839452555787308",
+        "gross_margin_pct": "82.13020372010628875110717449",
+        "opex_revenue_pct": "22.21492042629789422554930141"
+      },
+      "2025": {
+        "reported_inputs": {
+          "revenue": "120810",
+          "cost_of_revenue": "22422",
+          "operating_expenses": "28615",
+          "operating_income": "69773"
+        },
+        "operating_margin_pct": "57.75432497309825345583974837",
+        "gross_margin_pct": "81.44027812267196424137074745",
+        "opex_revenue_pct": "23.68595314957371078553099909"
+      }
+    },
+    "Intelligent Cloud": {
+      "2026": {
+        "reported_inputs": {
+          "revenue": "137791",
+          "cost_of_revenue": "57876",
+          "operating_expenses": "22943",
+          "operating_income": "56972"
+        },
+        "operating_margin_pct": "41.34667721404155568941367724",
+        "gross_margin_pct": "57.99725671487978169836926940",
+        "opex_revenue_pct": "16.65057950083822600895559216"
+      },
+      "2025": {
+        "reported_inputs": {
+          "revenue": "106265",
+          "cost_of_revenue": "40171",
+          "operating_expenses": "21505",
+          "operating_income": "44589"
+        },
+        "operating_margin_pct": "41.96019385498517856302639627",
+        "gross_margin_pct": "62.19733684656283818754999294",
+        "opex_revenue_pct": "20.23714299157765962452359667"
+      }
+    },
+    "Total": {
+      "2026": {
+        "reported_inputs": {
+          "revenue": "331839",
+          "cost_of_revenue": "106374",
+          "operating_expenses": "70228",
+          "operating_income": "155237"
+        },
+        "operating_margin_pct": "46.78081840892722073053498835",
+        "gross_margin_pct": "67.94409337058031153661866146",
+        "opex_revenue_pct": "21.16327496165309080608367311"
+      },
+      "2025": {
+        "reported_inputs": {
+          "revenue": "281724",
+          "cost_of_revenue": "87831",
+          "operating_expenses": "65365",
+          "operating_income": "128528"
+        },
+        "operating_margin_pct": "45.62195624085984864619272763",
+        "gross_margin_pct": "68.82374238616518294501000980",
+        "opex_revenue_pct": "23.20178614530533429881728216"
+      }
+    }
+  },
+  "formulas": {
+    "operating_margin": "operating_income / revenue * 100",
+    "gross_margin": "(revenue - cost_of_revenue) / revenue * 100",
+    "opex_ratio": "operating_expenses / revenue * 100"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "mode": "no-network local revalidation",
+  "test_suite": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "942",
+    "time": "104.706",
+    "timestamp": "2026-10-21T19:56:59.182247+01:00"
+  },
+  "new_model_requests": 0,
+  "original_msft_bundle_unchanged": true,
+  "canonical_raw_and_assembled_json_unchanged": true,
+  "revised_gemini_prompt_live_validated": false,
+  "financial_framework_findings": [
+    "2026:cash_flow_divergence",
+    "2026:revenue_profit_growth",
+    "2026:earnings_conversion_tension"
+  ],
+  "original_model_findings": 2,
+  "review_category_appearances_not_unique_insights": {
+    "Deterministic calculation": 2,
+    "Verified observation": 1,
+    "Unverified hypothesis": 8,
+    "Supported interpretation": 2
+  },
+  "visa_replay": {
+    "status": "passed",
+    "ticker": "V",
+    "cik": "0001403161",
+    "annual_periods": [
+      2023,
+      2024,
+      2025
+    ],
+    "source_facts_checked": 21,
+    "transport": [
+      {
+        "url": "https://www.sec.gov/files/company_tickers.json",
+        "cached": true,
+        "fetched_at": "2026-10-21T18:44:37.964591+00:00"
+      },
+      {
+        "url": "https://data.sec.gov/submissions/CIK0001403161.json",
+        "cached": false,
+        "fetched_at": "2026-10-21T18:46:19.339394+00:00"
+      },
+      {
+        "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403161.json",
+        "cached": false,
+        "fetched_at": "2026-10-21T18:46:20.593982+00:00"
+      }
+    ],
+    "comparison": {
+      "MSFT": {
+        "prior_end": "2025-06-30",
+        "current_end": "2026-06-30",
+        "signals": [
+          "cash_investment_tension",
+          "revenue_profit_growth",
+          "cash_flow_divergence",
+          "earnings_cash_tension",
+          "earnings_conversion_tension",
+          "investment_intensity"
+        ]
+      },
+      "V": {
+        "prior_end": "2024-09-30",
+        "current_end": "2025-09-30",
+        "signals": [
+          "growth_margin_tension"
+        ]
+      }
+    },
+    "model_requests": 0
+  },
+  "segment_flags": [
+    {
+      "code": "segment_consolidated_divergence",
+      "category": "Deterministic calculation",
+      "message": "Intelligent Cloud operating margin moved in the opposite direction to consolidated operating margin. Aggregate improvement does not establish segment-wide improvement.",
+      "source_ids": [
+        "sec:3eb3eccc7d1065f444ebdf69"
+      ],
+      "requires_analyst_review": true
+    }
+  ],
+  "browser_downloads_match_independent_exports": true,
+  "all_five_browser_downloads_verified": true
+}

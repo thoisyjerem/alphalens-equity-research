@@ -1,0 +1,15 @@
+{
+  "format_version": 1,
+  "notice": "Actual recorded Gemini output; revalidate before display. Human investment review remains required.",
+  "files": {
+    "SOURCE_CATALOG.json": "a738a4b79c2151c798b69ee87a624894280ea7f2b76582e87b16e4ad9b9cf73b",
+    "FINANCIAL_ANALYSIS.json": "0b7c5118bac54cd36fa82793eba7572da4449485d56e355d49b0c26382982b83",
+    "FINANCIAL_OBSERVATIONS.json": "9658c20b99df239a2c5c4daa0d46325697d5e3fe5306fb9d41b25837bf9ddbe7",
+    "FOCUSED_CONTEXT.json": "c02a57eb49f0658dd2f7b0e9991a1c7bfa0cf962e6c67ac82aa924ec3d0d8a18",
+    "TRANSPORT_OUTPUT.json": "31aab158d6b48f0b37a13bd08b42858d498ff59c278559b3367fba3ce0b460f9",
+    "ASSEMBLED_REPORT.json": "6245621ce91f60945e1295e298b40b613f91c0900784c90acde38a5d1c02e134",
+    "VALIDATION.json": "621302d58333bf9e1334ec958a5a0cccbbf72c19910ec210e6d0c3ef1c6876ee",
+    "REQUEST_LEDGER.json": "c3a43bd6947c91f75081c3e15c1a20007689923cc542e254c89d83b4232b68f4",
+    "RESEARCH_BRIEFING.json": "97f32cbef877d2eb58dd5dba681e04aa1036437fc21a2c3385ad4adf71f5efed"
+  }
+}

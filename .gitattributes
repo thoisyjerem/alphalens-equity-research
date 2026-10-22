@@ -1,0 +1,5 @@
+# Portable source files, with exact bytes retained for hashed research evidence.
+* text=auto eol=lf
+outputs/** -text
+fixtures/** -text
+*.png binary

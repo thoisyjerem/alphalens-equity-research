@@ -1,0 +1,9 @@
+{
+  "provenance": "Exact saved HTTP 200 from the first approved research-quality-upgrade briefing on 2026-10-17; rejected, not repaired.",
+  "source": "outputs/research_upgrade_2026-10-17/live/brief.complete_response.json",
+  "confirmed_failure": "what_matters_most[0].passage_citations[0].quote contains 978 characters; original contract maximum is 800.",
+  "credentials": "Response only; no request headers or credentials included.",
+  "files": {
+    "brief.complete_response.json": "130ad5a34d72be619529b0e4377580ed6be4deb29873167cf7ea7b8de91f229e"
+  }
+}

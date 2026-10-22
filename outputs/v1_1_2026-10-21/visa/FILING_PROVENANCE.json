@@ -1,0 +1,16 @@
+{
+  "form": "10-K",
+  "filing_date": "2025-11-06",
+  "report_date": "2025-09-30",
+  "accession": "0001403161-25-000089",
+  "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+  "cik": "0001403161",
+  "ticker": "V",
+  "sha256": "e191fde47bb4d1f4365a06be1975b2084d708fd5fe0880e9be983b114a91935d",
+  "transport": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+    "fetched_at": "2026-10-21T18:49:24.571283+00:00",
+    "cached": false
+  },
+  "model_requests": 0
+}

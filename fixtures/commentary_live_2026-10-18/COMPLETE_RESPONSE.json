@@ -1,0 +1,26 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n  \"result_json\": \"{\\\"observations\\\":[{\\\"text\\\":\\\"The company registered continuous growth in revenue and net income across consecutive annual periods, accompanied by rising operating cash flows.\\\",\\\"evidence_ids\\\":[\\\"2024:revenue\\\",\\\"2024:net_income\\\",\\\"2024:operating_cash_flow\\\",\\\"2025:revenue\\\",\\\"2025:net_income\\\",\\\"2025:operating_cash_flow\\\"]},{\\\"text\\\":\\\"Capital expenditures expanded substantially over the observed annual periods, while free cash flow experienced fluctuations.\\\",\\\"evidence_ids\\\":[\\\"2024:capital_expenditure\\\",\\\"2024:free_cash_flow\\\",\\\"2025:capital_expenditure\\\",\\\"2025:free_cash_flow\\\",\\\"2026:capital_expenditure\\\",\\\"2026:free_cash_flow\\\"]}],\\\"questions\\\":[\\\"What primary operational factors drove the significant expansion in capital expenditures across the fiscal years?\\\",\\\"How do management expectations align regarding future operating margin trajectories given recent scaling?\\\",\\\"What specific components contributed to the reduction in net debt balances between reporting periods?\\\"],\\\"caveats\\\":[\\\"Financial statements reflect past annual reporting periods and do not indicate future operating results.\\\",\\\"Citations and schema structure do not guarantee absolute semantic completeness of underlying reporting disclosures.\\\"]}\"\n}",
+        "extra_content": {
+          "google": {
+            "thought_signature": "EmAKXgFpFH0TwaGtrQlFcdL1i00U2LswN7Q/P55KgAzcuD3eaibvk76oI3kt5+gY4oKzQnhqYDPsC8iqDhyU7okurpISAKl4BflNwV5pVPdQpzHySHdVnRzKNB7zaXknz0o="
+          }
+        },
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1792316402,
+  "id": "8ZPUat6ADoKo28oPkuiU0Qc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 295,
+    "prompt_tokens": 11641,
+    "total_tokens": 11936
+  }
+}

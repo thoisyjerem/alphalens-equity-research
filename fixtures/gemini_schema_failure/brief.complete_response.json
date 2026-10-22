@@ -1,0 +1,26 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n  \"result_json\": \"{\\\"performance\\\":[{\\\"text\\\":\\\"The company generated substantial revenue and net income during the latest fiscal year.\\\",\\\"kind\\\":\\\"fact\\\",\\\"financial_citations\\\":[{\\\"source_id\\\":\\\"2026:revenue\\\",\\\"value\\\":331839000000.0,\\\"unit\\\":\\\"USD\\\",\\\"fiscal_year\\\":2026,\\\"period_start\\\":\\\"2025-07-01\\\",\\\"period_end\\\":\\\"2026-06-30\\\"},{\\\"source_id\\\":\\\"2026:net_income\\\",\\\"value\\\":133749000000.0,\\\"unit\\\":\\\"USD\\\",\\\"fiscal_year\\\":2026,\\\"period_start\\\":\\\"2025-07-01\\\",\\\"period_end\\\":\\\"2026-06-30\\\"}],\\\"passage_citations\\\":[]},{\\\"text\\\":\\\"Operating income and operating cash flow expanded significantly at the close of the recent annual period.\\\",\\\"kind\\\":\\\"fact\\\",\\\"financial_citations\\\":[{\\\"source_id\\\":\\\"2026:operating_income\\\",\\\"value\\\":155237000000.0,\\\"unit\\\":\\\"USD\\\",\\\"fiscal_year\\\":2026,\\\"period_start\\\":\\\"2025-07-01\\\",\\\"period_end\\\":\\\"2026-06-30\\\"},{\\\"source_id\\\":\\\"2026:operating_cash_flow\\\",\\\"value\\\":182935000000.0,\\\"unit\\\":\\\"USD\\\",\\\"fiscal_year\\\":2026,\\\"period_start\\\":\\\"2025-07-01\\\",\\\"period_end\\\":\\\"2026-06-30\\\"}],\\\"passage_citations\\\":[]}],\\\"business_developments\\\":[{\\\"text\\\":\\\"The company extended its strategic partnership with OpenAI and maintains revenue-sharing arrangements along with intellectual property rights for integration into products.\\\",\\\"kind\\\":\\\"fact\\\",\\\"financial_citations\\\":[],\\\"passage_citations\\\":[{\\\"source_id\\\":\\\"sec:d38d6c473aedfdfba9d49dba\\\",\\\"quote\\\":\\\"We have a long-term strategic partnership with OpenAI which was originally established in 2019. In October 2025 and April 2026, we extended this partnership and continue to build on our shared vision to advance artificial intelligence responsibly and make its benefits broadly accessible.\\\"}]},{\\\"text\\\":\\\"Management highlighted growth across multiple cloud services and productivity offerings during the fiscal year.\\\",\\\"kind\\\":\\\"fact\\\",\\\"financial_citations\\\":[],\\\"passage_citations\\\":[{\\\"source_id\\\":\\\"sec:d38d6c473aedfdfba9d49dba\\\",\\\"quote\\\":\\\"Highlights from fiscal year 2026 compared with fiscal year 2025 included: \\\\u2022 Microsoft Cloud revenue increased 27% to $214.4 billion. \\\\u2022 Commercial remaining performance obligation increased 84% to $678 billion. \\\\u2022 Microsoft 365 Commercial cloud revenue increased 17%.\\\"}]}],\\\"investment_considerations\\\":[{\\\"text\\\":\\\"Massive capital expenditure investments in cloud and artificial intelligence infrastructure continue to scale up operating costs.\\\",\\\"kind\\\":\\\"fact\\\",\\\"financial_citations\\\":[{\\\"source_id\\\":\\\"2026:capital_expenditure\\\",\\\"value\\\":115948000000.0,\\\"unit\\\":\\\"USD\\\",\\\"fiscal_year\\\":2026,\\\"period_start\\\":\\\"2025-07-01\\\",\\\"period_end\\\":\\\"2026-06-30\\\"}],\\\"passage_citations\\\":[{\\\"source_id\\\":\\\"sec:77e3b1b02ae6f58b92aa85af\\\",\\\"quote\\\":\\\"The investments we are making in cloud and AI infrastructure and devices will continue to increase our operating costs and may decrease our operating margins.\\\"}]}],\\\"risks\\\":[{\\\"text\\\":\\\"Intense competition across platforms, cloud services, and artificial intelligence offerings could adversely impact future results of operations.\\\",\\\"kind\\\":\\\"fact\\\",\\\"financial_citations\\\":[],\\\"passage_citations\\\":[{\\\"source_id\\\":\\\"sec:4cc23861349d36fb484e0fb7\\\",\\\"quote\\\":\\\"We face intense competition across all markets for our products and services, which could adversely affect our results of operations. Competition in the technology sector Our competitors range in size from diversified global companies with significant research and development resources to small, specialized firms\\\"}]},{\\\"text\\\":\\\"Datacenter operations depend on critical component availability, energy predictability, and buildable land to meet customer demand.\\\",\\\"kind\\\":\\\"fact\\\",\\\"financial_citations\\\":[],\\\"passage_citations\\\":[{\\\"source_id\\\":\\\"sec:77e3b1b02ae6f58b92aa85af\\\",\\\"quote\\\":\\\"Our datacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including graphics processing units and other components.\\\"}]}],\\\"missing_information\\\":[{\\\"text\\\":\\\"What are the specific segment revenue and margin breakdowns beyond aggregate totals?\\\"}]}\"\n}",
+        "extra_content": {
+          "google": {
+            "thought_signature": "EmAKXgFpFH0TNIKVsACrDOMtnFtQOAcSkxhdB1h5bC+p8DZ8IeoVX6VuuSkAn4PzG6mAGjy2XSX9rP/8rz9+xUwDbQgoWG2m9TB2hT5xiNv9JBvMbrVSXL3Zi6Ept1lNk3o="
+          }
+        },
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1792231738,
+  "id": "NknTauGnLcOcnsEP1sj94Ao",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 1117,
+    "prompt_tokens": 19786,
+    "total_tokens": 20903
+  }
+}

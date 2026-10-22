@@ -1,0 +1,72 @@
+{
+  "approval": "User explicitly approved one flat-format briefing request via approval question in this conversation",
+  "started_at": "2026-10-17T16:37:19.580906+00:00",
+  "provider": "gemini",
+  "requested_model": "gemini-3.5-flash-lite",
+  "project_tier": "Owner-confirmed Free Tier, billing disabled; not inferable from key",
+  "maximum_http_requests": 1,
+  "http_requests_attempted": 1,
+  "automatic_retries": false,
+  "provider_fallback": false,
+  "billing_changes": false,
+  "max_output_tokens": 3200,
+  "status": "mechanically_validated_awaiting_analyst_review",
+  "request_sha256": "50110f9256751026e8959e5c6b10c2fbadb792c1f510d20bce5d08c0c2df908a",
+  "credentials_or_headers_recorded": false,
+  "http_status": 200,
+  "http_response_latency_seconds": 2.219,
+  "reported_model": "gemini-3.5-flash-lite",
+  "reported_usage": {
+    "completion_tokens": 555,
+    "prompt_tokens": 5486,
+    "total_tokens": 6041
+  },
+  "finish_reasons": [
+    "stop"
+  ],
+  "unsupported_claims": 0,
+  "claim_counts": {
+    "evidence_checked": 4,
+    "interpretation": 6,
+    "question": 2
+  },
+  "diagnostics": {
+    "numerical_validation_result": "passed",
+    "source_validation_result": "passed",
+    "timestamp_utc": "2026-10-17T16:37:19.670255+00:00",
+    "operation": "research_briefing",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "status": "completed",
+    "http_status": null,
+    "latency_seconds": 3.313,
+    "usage": {
+      "input_tokens": 5486,
+      "output_tokens": 555,
+      "total_tokens": 6041
+    },
+    "parsing_result": "passed",
+    "schema_validation_result": "passed",
+    "validation_stage": "output_schema",
+    "validation_issues": [],
+    "issues_truncated": false,
+    "warning_codes": [
+      "semantic_review_required"
+    ]
+  },
+  "normalized_usage": {
+    "input_tokens": 5486,
+    "output_tokens": 555,
+    "total_tokens": 6041
+  },
+  "adapter_latency_seconds": 3.313,
+  "total_evaluation_latency_seconds": 3.453,
+  "finished_at": "2026-10-17T16:37:23.035541+00:00",
+  "approval_exhausted": true,
+  "cost": {
+    "expected_usd": 0,
+    "basis": "Owner-confirmed Free Tier without billing",
+    "provider_reported_cost": null,
+    "note": "Actual monetary charge is not reported by this API"
+  }
+}

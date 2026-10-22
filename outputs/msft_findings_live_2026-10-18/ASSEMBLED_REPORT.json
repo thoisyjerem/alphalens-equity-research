@@ -1,0 +1,427 @@
+{
+  "performance": [
+    {
+      "text": "Operating cash flow increased while free cash flow declined.",
+      "kind": "fact",
+      "financial_citations": [
+        {
+          "source_id": "2025:operating_cash_flow",
+          "value": 136162000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:operating_cash_flow",
+          "value": 182935000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        },
+        {
+          "source_id": "2025:capital_expenditure",
+          "value": 64551000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:capital_expenditure",
+          "value": 115948000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        }
+      ],
+      "passage_citations": []
+    },
+    {
+      "text": "Revenue and operating income increased materially.",
+      "kind": "fact",
+      "financial_citations": [
+        {
+          "source_id": "2025:revenue",
+          "value": 281724000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:revenue",
+          "value": 331839000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        },
+        {
+          "source_id": "2025:operating_income",
+          "value": 128528000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:operating_income",
+          "value": 155237000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        }
+      ],
+      "passage_citations": []
+    }
+  ],
+  "business_developments": [],
+  "investment_considerations": [
+    {
+      "text": "Alternative explanation: The increase in operating cash flow could reflect temporary working capital timing shifts rather than sustainable cash generation improvement. Limitation: Calculated metrics use annual reported figures and may include later-filed restatements; this is not point-in-time data.; Cash capex is total company cash purchases of PP&E; it is not an AI-specific or lease-inclusive investment measure.",
+      "kind": "inference",
+      "financial_citations": [
+        {
+          "source_id": "2025:operating_cash_flow",
+          "value": 136162000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:operating_cash_flow",
+          "value": 182935000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        },
+        {
+          "source_id": "2025:capital_expenditure",
+          "value": 64551000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:capital_expenditure",
+          "value": 115948000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        }
+      ],
+      "passage_citations": [
+        {
+          "source_id": "sec:838fe0caa8c807af7d81b902",
+          "quote": "These controls include model validation, review of key model inputs, analysis of period-over-period fluctuations, and independent recalculation of prices where appropriate. Cash Flows Cash from operations increased $46.8 billion to $182.9 billion for fiscal year 2026, primarily due to an increase in cash received from customers and a decrease in cash used to pay income taxes, offset in part by an increase in cash paid to suppliers. Cash used in financing increased $847 million to $52.5 billion for fiscal year 2026, primarily due to a $6.0 billion decrease in cash used for repayments of debt, "
+        }
+      ]
+    },
+    {
+      "text": "Alternative explanation: Reported operating profit growth may rely partially on non-recurring items or specific segment mix shifts rather than broad portfolio strength. Limitation: Matching concept sets are a minimum comparability check, not proof of unchanged economic scope; acquisitions and accounting changes require analyst review.; Only bounded passages from selected annual filing sections are provided; absence here is not non-disclosure by the company.",
+      "kind": "inference",
+      "financial_citations": [
+        {
+          "source_id": "2025:revenue",
+          "value": 281724000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:revenue",
+          "value": 331839000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        },
+        {
+          "source_id": "2025:operating_income",
+          "value": 128528000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:operating_income",
+          "value": 155237000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        }
+      ],
+      "passage_citations": [
+        {
+          "source_id": "sec:2b952351bdb846469a21de3f",
+          "quote": "Operating income increased $26.7 billion or 21% driven by growth in Productivity and Business Processes and Intelligent Cloud. Revenue and operating income both included a favorable foreign currency impact of 2%. 37 PART II Item 7 Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted EPS of $5.0 billion and $0.67, respectively. Prior year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted "
+        }
+      ]
+    }
+  ],
+  "risks": [
+    {
+      "text": "Infrastructure constraints, power availability limitations, and utility delays could restrict future datacenter expansion and capacity deployment. Limitation: Only bounded passages from selected annual filing sections are provided; absence here is not non-disclosure by the company.",
+      "kind": "inference",
+      "financial_citations": [],
+      "passage_citations": [
+        {
+          "source_id": "sec:56d67b25b672d6b595978ea9",
+          "quote": "In many regions, electricity generation, transmission, and distribution infrastructure is experiencing increasing demand and capacity constraints. Limitations in power availability, delays in obtaining power connections, outages, shortages, increased energy costs, or requirements imposed by utilities, regulators, or other market participants could restrict our ability to develop or expand datacenter capacity. In addition, alternative energy sources and other emerging solutions may not be available in sufficient quantities, may not timely scale to meet our requirements, or may be available "
+        }
+      ]
+    }
+  ],
+  "missing_information": [
+    {
+      "text": "How sustainable are the working capital benefits and lower cash income-tax payments observed in operating cash flow?",
+      "kind": "question",
+      "financial_citations": [],
+      "passage_citations": []
+    },
+    {
+      "text": "What specific capacity utilization rates and monetization milestones accompany the rising capital expenditure program?",
+      "kind": "question",
+      "financial_citations": [],
+      "passage_citations": []
+    },
+    {
+      "text": "Will power availability bottlenecks constrain future datacenter deployment schedules?",
+      "kind": "question",
+      "financial_citations": [],
+      "passage_citations": []
+    }
+  ],
+  "executive_summary": [
+    {
+      "text": "Operating cash flow expanded significantly, supported by higher cash collections from customers and lower income-tax payments, while free cash flow contracted as cash purchases of property and equipment increased substantially.",
+      "kind": "inference",
+      "financial_citations": [
+        {
+          "source_id": "2025:operating_cash_flow",
+          "value": 136162000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:operating_cash_flow",
+          "value": 182935000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        },
+        {
+          "source_id": "2025:capital_expenditure",
+          "value": 64551000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:capital_expenditure",
+          "value": 115948000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        }
+      ],
+      "passage_citations": [
+        {
+          "source_id": "sec:838fe0caa8c807af7d81b902",
+          "quote": "These controls include model validation, review of key model inputs, analysis of period-over-period fluctuations, and independent recalculation of prices where appropriate. Cash Flows Cash from operations increased $46.8 billion to $182.9 billion for fiscal year 2026, primarily due to an increase in cash received from customers and a decrease in cash used to pay income taxes, offset in part by an increase in cash paid to suppliers. Cash used in financing increased $847 million to $52.5 billion for fiscal year 2026, primarily due to a $6.0 billion decrease in cash used for repayments of debt, "
+        }
+      ]
+    },
+    {
+      "text": "Both revenue and operating income advanced notably, driven by expansion across key business segments including Productivity and Business Processes and Intelligent Cloud, aided by modest favorable currency movements.",
+      "kind": "inference",
+      "financial_citations": [
+        {
+          "source_id": "2025:revenue",
+          "value": 281724000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:revenue",
+          "value": 331839000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        },
+        {
+          "source_id": "2025:operating_income",
+          "value": 128528000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:operating_income",
+          "value": 155237000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        }
+      ],
+      "passage_citations": [
+        {
+          "source_id": "sec:2b952351bdb846469a21de3f",
+          "quote": "Operating income increased $26.7 billion or 21% driven by growth in Productivity and Business Processes and Intelligent Cloud. Revenue and operating income both included a favorable foreign currency impact of 2%. 37 PART II Item 7 Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted EPS of $5.0 billion and $0.67, respectively. Prior year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted "
+        }
+      ]
+    }
+  ],
+  "what_matters_most": [
+    {
+      "text": "Operating cash flow expanded significantly, supported by higher cash collections from customers and lower income-tax payments, while free cash flow contracted as cash purchases of property and equipment increased substantially.",
+      "kind": "inference",
+      "financial_citations": [
+        {
+          "source_id": "2025:operating_cash_flow",
+          "value": 136162000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:operating_cash_flow",
+          "value": 182935000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        },
+        {
+          "source_id": "2025:capital_expenditure",
+          "value": 64551000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:capital_expenditure",
+          "value": 115948000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        }
+      ],
+      "passage_citations": [
+        {
+          "source_id": "sec:838fe0caa8c807af7d81b902",
+          "quote": "These controls include model validation, review of key model inputs, analysis of period-over-period fluctuations, and independent recalculation of prices where appropriate. Cash Flows Cash from operations increased $46.8 billion to $182.9 billion for fiscal year 2026, primarily due to an increase in cash received from customers and a decrease in cash used to pay income taxes, offset in part by an increase in cash paid to suppliers. Cash used in financing increased $847 million to $52.5 billion for fiscal year 2026, primarily due to a $6.0 billion decrease in cash used for repayments of debt, "
+        }
+      ]
+    },
+    {
+      "text": "Both revenue and operating income advanced notably, driven by expansion across key business segments including Productivity and Business Processes and Intelligent Cloud, aided by modest favorable currency movements.",
+      "kind": "inference",
+      "financial_citations": [
+        {
+          "source_id": "2025:revenue",
+          "value": 281724000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:revenue",
+          "value": 331839000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        },
+        {
+          "source_id": "2025:operating_income",
+          "value": 128528000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:operating_income",
+          "value": 155237000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        }
+      ],
+      "passage_citations": [
+        {
+          "source_id": "sec:2b952351bdb846469a21de3f",
+          "quote": "Operating income increased $26.7 billion or 21% driven by growth in Productivity and Business Processes and Intelligent Cloud. Revenue and operating income both included a favorable foreign currency impact of 2%. 37 PART II Item 7 Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted EPS of $5.0 billion and $0.67, respectively. Prior year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted "
+        }
+      ]
+    }
+  ],
+  "capital_allocation": [
+    {
+      "text": "Operating cash flow increased while free cash flow declined.",
+      "kind": "fact",
+      "financial_citations": [
+        {
+          "source_id": "2025:operating_cash_flow",
+          "value": 136162000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:operating_cash_flow",
+          "value": 182935000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        },
+        {
+          "source_id": "2025:capital_expenditure",
+          "value": 64551000000.0,
+          "unit": "USD",
+          "fiscal_year": 2025,
+          "period_start": "2024-07-01",
+          "period_end": "2025-06-30"
+        },
+        {
+          "source_id": "2026:capital_expenditure",
+          "value": 115948000000.0,
+          "unit": "USD",
+          "fiscal_year": 2026,
+          "period_start": "2025-07-01",
+          "period_end": "2026-06-30"
+        }
+      ],
+      "passage_citations": []
+    }
+  ]
+}

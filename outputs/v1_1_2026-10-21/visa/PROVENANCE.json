@@ -1,0 +1,36 @@
+{
+  "captured_for": "AlphaLens V1.1 SEC-only Visa validation",
+  "ticker": "V",
+  "cik": "0001403161",
+  "captured_at": "2026-10-21T18:46:20.894765+00:00",
+  "records": [
+    {
+      "url": "https://www.sec.gov/files/company_tickers.json",
+      "fetched_at": "2026-10-21T18:44:37.964591+00:00",
+      "cached": true
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001403161.json",
+      "fetched_at": "2026-10-21T18:46:19.339394+00:00",
+      "cached": false
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403161.json",
+      "fetched_at": "2026-10-21T18:46:20.593982+00:00",
+      "cached": false
+    }
+  ],
+  "files": {
+    "company_tickers.json": {
+      "sha256": "60b9b8e90870d7b151b77ec80e608c56800d8bc8e676b3584ce25de776897d9c"
+    },
+    "visa_submissions.json": {
+      "sha256": "61db92430bd5e56bba9b2368a91b3bec7c696509fd33e7368ba55c264732f99b"
+    },
+    "visa_companyfacts.json": {
+      "sha256": "48984c63440e81881436fc4b4c5a57e195ee179b5142c1bb25625aa306ebde57"
+    }
+  },
+  "ai_requests": 0,
+  "synthetic_data": false
+}

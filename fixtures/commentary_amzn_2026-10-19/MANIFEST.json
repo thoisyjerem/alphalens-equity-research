@@ -1,0 +1,41 @@
+{
+  "fixture_version": 1,
+  "created_at": "2026-10-19T13:20:56.835216+00:00",
+  "purpose": "Offline Amazon commentary regression over genuine cached SEC annual facts; model outputs in tests are authored simulations.",
+  "data_status": "TEST_ONLY_CACHED_SEC_SNAPSHOT",
+  "ticker": "AMZN",
+  "cik": "0001018724",
+  "extraction": "alphalens.financials.extract_annuals(companyfacts, submissions, years=3); no network and no invented accounting data",
+  "original_live_evidence_fingerprint": "73f299853876d31b1f81fe5d314e6b86936b2e428ac2e1d096b297c33771c936",
+  "offline_evidence_fingerprint": "e61ba0eb3b47cd9c895b794899b34aad407582df565064af3664ca5fad48701c",
+  "matched_failed_audit_timestamp_utc": "2026-10-19T13:16:35.018939+00:00",
+  "original_model_text_available": false,
+  "selected_source_components_checked": 48,
+  "snapshot_file": "AMZN_SNAPSHOT.json",
+  "snapshot_sha256": "203c2fb15e9f5bb07cc061c0647a21d0390fa29419a2fec0e48c5c4aebd9b970",
+  "source_records": [
+    {
+      "url": "https://www.sec.gov/files/company_tickers.json",
+      "fetched_at": "2026-10-18T16:53:25.036513+00:00",
+      "original_cache_sha256": "8962a94c2d8939774db6422aa28c4b7b4094cb93ced6ead7ef49ac10adb7afec",
+      "body_sha256": "4829d8d8f6d5d3dcfff13c5fe8d2debfdd24ba3a5a14814cb1ae0520fdb521e6"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "fetched_at": "2026-10-19T13:16:14.253154+00:00",
+      "original_cache_sha256": "9e45de6c81528ceb9b7347684d66f2cc21735d7d1a5f59c428838ab3a2ba487b",
+      "body_sha256": "88d8c46e351678f544e7beac1ac41791385266a9f3cfdd5a097388a2b3b843b3"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+      "fetched_at": "2026-10-19T13:16:14.710104+00:00",
+      "original_cache_sha256": "2d9bc0bb410c9b4ac5bf3e070b40f85fb1c0d8df1c69f4193b18afe4327b4cc9",
+      "body_sha256": "bbc5ecc5b8a382a2ec5868d5a8af4f6073316198d3fbebbe12153a24e6f04157"
+    }
+  ],
+  "limitations": [
+    "Hashes protect this fixture from accidental changes; they do not cryptographically authenticate SEC documents.",
+    "Extracted financial observations reproduce the failed Amazon context, but do not reveal the rejected Gemini wording.",
+    "Do not register this test fixture as an application offline company or treat authored mock text as live AI output."
+  ]
+}

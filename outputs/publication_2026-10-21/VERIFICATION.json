@@ -1,0 +1,81 @@
+{
+  "publication_review_date": "2026-10-22",
+  "working_tree_full_suite": {
+    "executed_on": "2026-10-21",
+    "passed": 942,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "console_seconds": 105.76,
+    "result": "TEST_RESULTS.xml"
+  },
+  "clean_publication_full_suite": {
+    "executed_on": "2026-10-21",
+    "passed": 942,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "console_seconds": 146.56,
+    "junit_seconds": 146.517,
+    "result": "CLEAN_COPY_TEST_RESULTS.xml"
+  },
+  "initial_clean_copy_invocation": {
+    "outcome": "942 setup errors before test bodies",
+    "cause": "Direct invocation omitted the temporary parent directory created by test.ps1",
+    "resolved": "Used documented test launcher directory setup; unchanged application passed full suite"
+  },
+  "microsoft_recorded_replay": [
+    {
+      "bundle": "outputs/msft_flat_live_2026-10-17",
+      "contract": "focused_v2",
+      "mechanical_validation": "passed",
+      "original_output_preserved": true,
+      "json_and_markdown_export": "passed",
+      "analyst_approval": "pending"
+    },
+    {
+      "bundle": "outputs/msft_findings_live_2026-10-18",
+      "contract": "focused_v3",
+      "mechanical_validation": "passed",
+      "original_output_preserved": true,
+      "json_and_markdown_export": "passed",
+      "analyst_approval": "pending"
+    }
+  ],
+  "visa_replay": {
+    "status": "passed",
+    "issuer": {
+      "ticker": "V",
+      "name": "VISA INC.",
+      "cik": "0001403161"
+    },
+    "unique_source_facts_checked": 21,
+    "source_occurrences_checked": 39,
+    "cash_ppe_and_defined_fcf": "N/A preserved in every period"
+  },
+  "browser_check": {
+    "url": "http://127.0.0.1:8501/",
+    "mode": "Offline SEC fixture",
+    "recorded_briefing": "visible",
+    "cash_bridge": "visible with source facts, periods and filing links",
+    "live_generation": "not invoked"
+  },
+  "network_during_financial_replay": "blocked",
+  "model_requests_during_publication": 0,
+  "licence": "Not selected",
+  "video": "Not available",
+  "scope": "Software and financial controls, not general semantic proof or external investment approval",
+  "publication_file_audit": {
+    "files": 239,
+    "credential_or_private_path_findings": 0,
+    "broken_markdown_links": 0,
+    "licence_selected": false,
+    "simulated_secret_fixture": "Explicitly fake redaction-test value only; no configured secret found"
+  },
+  "dependency_check": "pip check: no broken requirements found",
+  "final_packaging_regression": {
+    "passed": 1,
+    "seconds": 5.4,
+    "purpose": "Source archive inventory after publication metadata additions"
+  }
+}

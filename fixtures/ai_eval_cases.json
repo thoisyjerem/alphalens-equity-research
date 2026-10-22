@@ -1,0 +1,31 @@
+{
+  "label": "Deterministic mock LLM evaluation cases; these are authored tests, never live model outputs or financial evidence.",
+  "source_policy": "Clean financial citations are constructed at run time from the genuine offline MSFT evidence book. Clean passage quotations are sliced verbatim from the checked-in SEC filing context. Each corruption changes exactly one claim unless noted.",
+  "cases": [
+    {"id": "clean_brief", "feature": "brief", "mutation": "none", "expected": "accepted", "description": "Concise research briefing with reported annual financial inputs, a filing passage and a diligence question."},
+    {"id": "clean_thesis_challenge", "feature": "challenge", "mutation": "none", "expected": "accepted", "description": "A balanced thesis challenge with assumptions, support, counterevidence, risks, missing information and conditional invalidation."},
+    {"id": "challenge_insufficient_contradictory_evidence", "feature": "challenge", "mutation": "no_contradiction_available", "expected": "accepted", "description": "When the limited source packet cannot establish a contradiction, that section stays empty and a diligence question identifies the gap."},
+    {"id": "incorrect_financial_figure", "feature": "brief", "mutation": "wrong_value", "expected": "quarantined", "description": "A plausible-looking revenue citation is increased by an arbitrary amount, leaving its source identifier unchanged."},
+    {"id": "rounded_financial_figure", "feature": "brief", "mutation": "rounded_value", "expected": "quarantined", "description": "A rounded raw revenue figure is incorrectly substituted for the exact SEC/Python evidence value."},
+    {"id": "fabricated_financial_source", "feature": "brief", "mutation": "unknown_financial_id", "expected": "quarantined", "description": "An invented revenue evidence identifier is cited."},
+    {"id": "missing_debt_substituted_zero", "feature": "brief", "mutation": "unavailable_debt", "expected": "quarantined", "description": "Unavailable debt is invented as zero, even though missing metrics are absent from the evidence book."},
+    {"id": "incorrect_financial_unit", "feature": "brief", "mutation": "wrong_unit", "expected": "quarantined", "description": "A valid USD fact is mislabelled as USD/share."},
+    {"id": "incorrect_fiscal_year", "feature": "brief", "mutation": "wrong_fiscal_year", "expected": "quarantined", "description": "The financial value and identifier are correct but the fiscal-year label is altered."},
+    {"id": "quarterly_start_annual_fact", "feature": "brief", "mutation": "quarterly_start", "expected": "quarantined", "description": "An annual fact is given a quarterly start date."},
+    {"id": "incorrect_period_end", "feature": "brief", "mutation": "wrong_period_end", "expected": "quarantined", "description": "The cited annual reporting end date is altered."},
+    {"id": "fabricated_passage_citation", "feature": "brief", "mutation": "unknown_passage_id", "expected": "quarantined", "description": "An invented SEC passage ID is attached to a business-development claim."},
+    {"id": "fabricated_quotation", "feature": "brief", "mutation": "fabricated_quote", "expected": "quarantined", "description": "A real passage ID is reused with an invented quotation about guaranteed customer demand."},
+    {"id": "cross_type_source", "feature": "brief", "mutation": "cross_type_source", "expected": "quarantined", "description": "A real narrative source ID is passed off as a financial source."},
+    {"id": "duplicate_financial_citation", "feature": "brief", "mutation": "duplicate_citation", "expected": "quarantined", "description": "A single real citation is duplicated within a claim."},
+    {"id": "unsupported_material_fact", "feature": "brief", "mutation": "unsourced_fact", "expected": "quarantined", "description": "A confident material assertion has no financial or passage evidence."},
+    {"id": "numerical_prose_wrong_figure", "feature": "brief", "mutation": "numeric_prose", "expected": "quarantined", "description": "An incorrect dollar amount is placed in prose despite a correct structured citation."},
+    {"id": "unicode_numerical_prose", "feature": "brief", "mutation": "unicode_numeric_prose", "expected": "quarantined", "description": "Unicode digits attempt to hide a numerical assertion from validation."},
+    {"id": "spelled_numerical_prose", "feature": "brief", "mutation": "spelled_numeric_prose", "expected": "quarantined", "description": "A numerical amount is spelled out in prose instead of supplied as structured evidence."},
+    {"id": "assertion_labelled_question", "feature": "brief", "mutation": "mislabelled_question", "expected": "quarantined", "description": "A factual assertion is labelled as an uncited question in the performance section."},
+    {"id": "business_event_financial_only", "feature": "brief", "mutation": "financial_only_business", "expected": "quarantined", "description": "Consolidated annual totals are used as the sole evidence for a product-event assertion."},
+    {"id": "uncited_counterevidence", "feature": "challenge", "mutation": "unsourced_counterevidence", "expected": "quarantined", "description": "A thesis challenge invents a competitor-related contradiction without evidence."},
+    {"id": "unconditional_thesis_invalidation", "feature": "challenge", "mutation": "unconditional_invalidation", "expected": "quarantined", "description": "A confident unconditional assertion is placed in the conditional invalidation section."},
+    {"id": "uncontrolled_schema_field", "feature": "brief", "mutation": "extra_field", "expected": "schema_rejected", "description": "An undeclared price-target field attempts to bypass the structured contract."},
+    {"id": "boolean_financial_value", "feature": "brief", "mutation": "boolean_value", "expected": "schema_rejected", "description": "A JSON boolean attempts to masquerade as a financial number."}
+  ]
+}

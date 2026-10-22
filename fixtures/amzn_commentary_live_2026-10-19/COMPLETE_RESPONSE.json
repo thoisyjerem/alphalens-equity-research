@@ -1,0 +1,26 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n  \"primary_interpretation\": \"The material increase in revenue alongside higher operating income and a slightly improved operating margin could suggest enhanced top-line expansion relative to operating expenses. Such developments might support greater operational cash generation potential over the comparative period, although financial data alone does not establish causal drivers.\",\n  \"questions\": [\n    \"What percentage of the revenue growth originated from specific business segments rather than general expansion?\",\n    \"How did changes in working capital components affect cash flows during the comparative fiscal periods?\",\n    \"Were any of the observed operating income gains influenced by one-off expense reductions?\",\n    \"What unobserved capital allocation choices might have influenced future cash conversion dynamics?\"\n  ],\n  \"caveats\": [\n    \"Matching annual periods and concept sets do not prove unchanged economic scope, as acquisitions and restatements require review.\",\n    \"Financial data alone does not establish causal drivers, business developments, management statements, or competitive events.\",\n    \"Spending does not establish poor or attractive returns, a moat, or valuation.\"\n  ]\n}",
+        "extra_content": {
+          "google": {
+            "thought_signature": "EmAKXgFpFH0TTZc1K181oy79QxDKVjURMB+95QA2QBe4DYOqmtnt7UzNbobUdJ7hKdon50wSYDE7Vmrzt/vp3bd3FKGBeTZpgZ+JM36wk28QOp1I6i+g9qRgDHookw3RRus="
+          }
+        },
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1792417647,
+  "id": "bR_Wara4LfqAxs0P692J-AI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 220,
+    "prompt_tokens": 1443,
+    "total_tokens": 1663
+  }
+}

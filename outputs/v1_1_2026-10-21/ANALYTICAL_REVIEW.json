@@ -1,0 +1,292 @@
+{
+  "notice": "Bounded automated flags, not semantic certification or new Gemini output",
+  "claim_reviews": [
+    {
+      "category": "Deterministic calculation",
+      "claim_text": "Operating cash flow increased while free cash flow declined.",
+      "evidence_ids": [
+        "2025:operating_cash_flow",
+        "2026:operating_cash_flow",
+        "2025:capital_expenditure",
+        "2026:capital_expenditure"
+      ],
+      "flags": [],
+      "support_basis": "Checked cited financial values, units, dates and the bounded annual-direction statement. Economic materiality and the completeness of the explanation remain analyst judgments.",
+      "requires_analyst_review": true,
+      "section": "performance",
+      "index": 0
+    },
+    {
+      "category": "Verified observation",
+      "claim_text": "Revenue and operating income increased materially.",
+      "evidence_ids": [
+        "2025:revenue",
+        "2026:revenue",
+        "2025:operating_income",
+        "2026:operating_income"
+      ],
+      "flags": [],
+      "support_basis": "Checked cited financial values, units, dates and the bounded annual-direction statement. Economic materiality and the completeness of the explanation remain analyst judgments.",
+      "requires_analyst_review": true,
+      "section": "performance",
+      "index": 1
+    },
+    {
+      "category": "Unverified hypothesis",
+      "claim_text": "Alternative explanation: The increase in operating cash flow could reflect temporary working capital timing shifts rather than sustainable cash generation improvement. Limitation: Calculated metrics use annual reported figures and may include later-filed restatements; this is not point-in-time data.; Cash capex is total company cash purchases of PP&E; it is not an AI-specific or lease-inclusive investment measure.",
+      "evidence_ids": [
+        "2025:operating_cash_flow",
+        "2026:operating_cash_flow",
+        "2025:capital_expenditure",
+        "2026:capital_expenditure",
+        "sec:838fe0caa8c807af7d81b902"
+      ],
+      "flags": [
+        {
+          "code": "WORKING_CAPITAL_RECONCILIATION_NEEDED",
+          "message": "Customer receipts and tax payments do not by themselves establish working-capital benefits. Inspect a cash-flow/working-capital reconciliation; the proposed mechanism is unverified.",
+          "evidence_ids": [
+            "2025:operating_cash_flow",
+            "2026:operating_cash_flow",
+            "2025:capital_expenditure",
+            "2026:capital_expenditure",
+            "sec:838fe0caa8c807af7d81b902"
+          ]
+        },
+        {
+          "code": "CAUSAL_SUPPORT_REQUIRES_REVIEW",
+          "message": "The causal explanation is not established by the bounded disclosure checks. Inspect scope, accounting line, period and competing explanations; source existence is insufficient.",
+          "evidence_ids": [
+            "2025:operating_cash_flow",
+            "2026:operating_cash_flow",
+            "2025:capital_expenditure",
+            "2026:capital_expenditure",
+            "sec:838fe0caa8c807af7d81b902"
+          ]
+        }
+      ],
+      "support_basis": "A question, conditional mechanism or scope-limited interpretation requires further evidence; it is not an observed result.",
+      "requires_analyst_review": true,
+      "section": "investment_considerations",
+      "index": 0
+    },
+    {
+      "category": "Unverified hypothesis",
+      "claim_text": "Alternative explanation: Reported operating profit growth may rely partially on non-recurring items or specific segment mix shifts rather than broad portfolio strength. Limitation: Matching concept sets are a minimum comparability check, not proof of unchanged economic scope; acquisitions and accounting changes require analyst review.; Only bounded passages from selected annual filing sections are provided; absence here is not non-disclosure by the company.",
+      "evidence_ids": [
+        "2025:revenue",
+        "2026:revenue",
+        "2025:operating_income",
+        "2026:operating_income",
+        "sec:2b952351bdb846469a21de3f"
+      ],
+      "flags": [
+        {
+          "code": "NET_VS_OPERATING_SCOPE",
+          "message": "The cited material does not establish a non-recurring operating-profit driver. Net-income/EPS investment gains cannot explain operating-income growth without a separate operating reconciliation.",
+          "evidence_ids": [
+            "2025:revenue",
+            "2026:revenue",
+            "2025:operating_income",
+            "2026:operating_income",
+            "sec:2b952351bdb846469a21de3f"
+          ]
+        },
+        {
+          "code": "CAUSAL_SUPPORT_REQUIRES_REVIEW",
+          "message": "The causal explanation is not established by the bounded disclosure checks. Inspect scope, accounting line, period and competing explanations; source existence is insufficient.",
+          "evidence_ids": [
+            "2025:revenue",
+            "2026:revenue",
+            "2025:operating_income",
+            "2026:operating_income",
+            "sec:2b952351bdb846469a21de3f"
+          ]
+        }
+      ],
+      "support_basis": "A question, conditional mechanism or scope-limited interpretation requires further evidence; it is not an observed result.",
+      "requires_analyst_review": true,
+      "section": "investment_considerations",
+      "index": 1
+    },
+    {
+      "category": "Unverified hypothesis",
+      "claim_text": "Infrastructure constraints, power availability limitations, and utility delays could restrict future datacenter expansion and capacity deployment. Limitation: Only bounded passages from selected annual filing sections are provided; absence here is not non-disclosure by the company.",
+      "evidence_ids": [
+        "sec:56d67b25b672d6b595978ea9"
+      ],
+      "flags": [],
+      "support_basis": "A question, conditional mechanism or scope-limited interpretation requires further evidence; it is not an observed result.",
+      "requires_analyst_review": true,
+      "section": "risks",
+      "index": 0
+    },
+    {
+      "category": "Unverified hypothesis",
+      "claim_text": "How sustainable are the working capital benefits and lower cash income-tax payments observed in operating cash flow?",
+      "evidence_ids": [],
+      "flags": [
+        {
+          "code": "MISSING_EVIDENCE",
+          "message": "No supporting source is cited. A question or conditional mechanism is not established evidence.",
+          "evidence_ids": []
+        },
+        {
+          "code": "WORKING_CAPITAL_PREMISE_UNSUPPORTED",
+          "message": "Customer receipts and tax payments do not by themselves establish working-capital benefits. Inspect a cash-flow/working-capital reconciliation; the proposed mechanism is unverified.",
+          "evidence_ids": []
+        }
+      ],
+      "support_basis": "A question, conditional mechanism or scope-limited interpretation requires further evidence; it is not an observed result.",
+      "requires_analyst_review": true,
+      "section": "missing_information",
+      "index": 0
+    },
+    {
+      "category": "Unverified hypothesis",
+      "claim_text": "What specific capacity utilization rates and monetization milestones accompany the rising capital expenditure program?",
+      "evidence_ids": [],
+      "flags": [
+        {
+          "code": "MISSING_EVIDENCE",
+          "message": "No supporting source is cited. A question or conditional mechanism is not established evidence.",
+          "evidence_ids": []
+        }
+      ],
+      "support_basis": "A question, conditional mechanism or scope-limited interpretation requires further evidence; it is not an observed result.",
+      "requires_analyst_review": true,
+      "section": "missing_information",
+      "index": 1
+    },
+    {
+      "category": "Unverified hypothesis",
+      "claim_text": "Will power availability bottlenecks constrain future datacenter deployment schedules?",
+      "evidence_ids": [],
+      "flags": [
+        {
+          "code": "MISSING_EVIDENCE",
+          "message": "No supporting source is cited. A question or conditional mechanism is not established evidence.",
+          "evidence_ids": []
+        }
+      ],
+      "support_basis": "A question, conditional mechanism or scope-limited interpretation requires further evidence; it is not an observed result.",
+      "requires_analyst_review": true,
+      "section": "missing_information",
+      "index": 2
+    },
+    {
+      "category": "Supported interpretation",
+      "claim_text": "Operating cash flow expanded significantly, supported by higher cash collections from customers and lower income-tax payments, while free cash flow contracted as cash purchases of property and equipment increased substantially.",
+      "evidence_ids": [
+        "2025:operating_cash_flow",
+        "2026:operating_cash_flow",
+        "2025:capital_expenditure",
+        "2026:capital_expenditure",
+        "sec:838fe0caa8c807af7d81b902"
+      ],
+      "flags": [],
+      "support_basis": "Bounded match to the cited management cash-flow driver clause; any free-cash-flow direction is separately reconciled to cited annual OCF and cash PP&E. This checks a disclosed explanation, not its persistence, materiality or independent economic causality.",
+      "requires_analyst_review": true,
+      "section": "executive_summary",
+      "index": 0
+    },
+    {
+      "category": "Unverified hypothesis",
+      "claim_text": "Both revenue and operating income advanced notably, driven by expansion across key business segments including Productivity and Business Processes and Intelligent Cloud, aided by modest favorable currency movements.",
+      "evidence_ids": [
+        "2025:revenue",
+        "2026:revenue",
+        "2025:operating_income",
+        "2026:operating_income",
+        "sec:2b952351bdb846469a21de3f"
+      ],
+      "flags": [
+        {
+          "code": "CAUSAL_SUPPORT_REQUIRES_REVIEW",
+          "message": "The causal explanation is not established by the bounded disclosure checks. Inspect scope, accounting line, period and competing explanations; source existence is insufficient.",
+          "evidence_ids": [
+            "2025:revenue",
+            "2026:revenue",
+            "2025:operating_income",
+            "2026:operating_income",
+            "sec:2b952351bdb846469a21de3f"
+          ]
+        }
+      ],
+      "support_basis": "No bounded rule establishes the meaning of this prose. Existing citations and quotations require an analyst to assess relevance and completeness.",
+      "requires_analyst_review": true,
+      "section": "executive_summary",
+      "index": 1
+    },
+    {
+      "category": "Supported interpretation",
+      "claim_text": "Operating cash flow expanded significantly, supported by higher cash collections from customers and lower income-tax payments, while free cash flow contracted as cash purchases of property and equipment increased substantially.",
+      "evidence_ids": [
+        "2025:operating_cash_flow",
+        "2026:operating_cash_flow",
+        "2025:capital_expenditure",
+        "2026:capital_expenditure",
+        "sec:838fe0caa8c807af7d81b902"
+      ],
+      "flags": [],
+      "support_basis": "Bounded match to the cited management cash-flow driver clause; any free-cash-flow direction is separately reconciled to cited annual OCF and cash PP&E. This checks a disclosed explanation, not its persistence, materiality or independent economic causality.",
+      "requires_analyst_review": true,
+      "section": "what_matters_most",
+      "index": 0
+    },
+    {
+      "category": "Unverified hypothesis",
+      "claim_text": "Both revenue and operating income advanced notably, driven by expansion across key business segments including Productivity and Business Processes and Intelligent Cloud, aided by modest favorable currency movements.",
+      "evidence_ids": [
+        "2025:revenue",
+        "2026:revenue",
+        "2025:operating_income",
+        "2026:operating_income",
+        "sec:2b952351bdb846469a21de3f"
+      ],
+      "flags": [
+        {
+          "code": "CAUSAL_SUPPORT_REQUIRES_REVIEW",
+          "message": "The causal explanation is not established by the bounded disclosure checks. Inspect scope, accounting line, period and competing explanations; source existence is insufficient.",
+          "evidence_ids": [
+            "2025:revenue",
+            "2026:revenue",
+            "2025:operating_income",
+            "2026:operating_income",
+            "sec:2b952351bdb846469a21de3f"
+          ]
+        }
+      ],
+      "support_basis": "No bounded rule establishes the meaning of this prose. Existing citations and quotations require an analyst to assess relevance and completeness.",
+      "requires_analyst_review": true,
+      "section": "what_matters_most",
+      "index": 1
+    },
+    {
+      "category": "Deterministic calculation",
+      "claim_text": "Operating cash flow increased while free cash flow declined.",
+      "evidence_ids": [
+        "2025:operating_cash_flow",
+        "2026:operating_cash_flow",
+        "2025:capital_expenditure",
+        "2026:capital_expenditure"
+      ],
+      "flags": [],
+      "support_basis": "Checked cited financial values, units, dates and the bounded annual-direction statement. Economic materiality and the completeness of the explanation remain analyst judgments.",
+      "requires_analyst_review": true,
+      "section": "capital_allocation",
+      "index": 0
+    }
+  ],
+  "checked_segment_context": [
+    {
+      "code": "segment_consolidated_divergence",
+      "category": "Deterministic calculation",
+      "message": "Intelligent Cloud operating margin moved in the opposite direction to consolidated operating margin. Aggregate improvement does not establish segment-wide improvement.",
+      "source_ids": [
+        "sec:3eb3eccc7d1065f444ebdf69"
+      ],
+      "requires_analyst_review": true
+    }
+  ]
+}

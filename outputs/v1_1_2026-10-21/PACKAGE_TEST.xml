@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="3.125" timestamp="2026-10-21T20:02:51.776598+01:00"><testcase classname="tests.test_source_package" name="test_packaged_source_replays_real_bundle_and_excludes_unlisted_local_files" time="3.092" /></testsuite></testsuites>

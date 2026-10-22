@@ -1,0 +1,9 @@
+{
+  "origin": "outputs\\msft_focused_live_2026-10-17",
+  "kind": "actual approved live response, rejected",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "failure": "Three limitations arrays violate strict string fields; required cash-flow observation also absent",
+  "sha256": "de2a200e5af48555b728f9358a39364431d821738eb03b5fe18a81f042f8348f",
+  "no_credentials_or_headers": true
+}

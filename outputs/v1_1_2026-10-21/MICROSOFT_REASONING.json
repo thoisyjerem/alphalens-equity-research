@@ -1,0 +1,429 @@
+{
+  "origin": "Evidence-bound Python/reviewer framework; no new model generation",
+  "findings": [
+    {
+      "observation_id": "2026:cash_flow_divergence",
+      "observation": "Operating cash flow increased while free cash flow declined",
+      "category": "Deterministic calculation",
+      "origin": "Python/reviewer research framework, not Gemini output",
+      "prior_period": {
+        "fiscal_year": 2025,
+        "period_start": "2024-07-01",
+        "period_end": "2025-06-30"
+      },
+      "current_period": {
+        "fiscal_year": 2026,
+        "period_start": "2025-07-01",
+        "period_end": "2026-06-30"
+      },
+      "comparisons": [
+        {
+          "metric": "operating_cash_flow",
+          "prior": {
+            "source_id": "2025:operating_cash_flow",
+            "value": 136162000000.0,
+            "unit": "USD",
+            "fiscal_year": 2025,
+            "period_start": "2024-07-01",
+            "period_end": "2025-06-30",
+            "raw_source_ids": [
+              "2025:operating_cash_flow"
+            ]
+          },
+          "current": {
+            "source_id": "2026:operating_cash_flow",
+            "value": 182935000000.0,
+            "unit": "USD",
+            "fiscal_year": 2026,
+            "period_start": "2025-07-01",
+            "period_end": "2026-06-30",
+            "raw_source_ids": [
+              "2026:operating_cash_flow"
+            ]
+          }
+        },
+        {
+          "metric": "capital_expenditure",
+          "prior": {
+            "source_id": "2025:capital_expenditure",
+            "value": 64551000000.0,
+            "unit": "USD",
+            "fiscal_year": 2025,
+            "period_start": "2024-07-01",
+            "period_end": "2025-06-30",
+            "raw_source_ids": [
+              "2025:capital_expenditure"
+            ]
+          },
+          "current": {
+            "source_id": "2026:capital_expenditure",
+            "value": 115948000000.0,
+            "unit": "USD",
+            "fiscal_year": 2026,
+            "period_start": "2025-07-01",
+            "period_end": "2026-06-30",
+            "raw_source_ids": [
+              "2026:capital_expenditure"
+            ]
+          }
+        },
+        {
+          "metric": "free_cash_flow",
+          "prior": {
+            "source_id": "2025:analytics.free_cash_flow",
+            "value": 71611000000.0,
+            "unit": "USD",
+            "fiscal_year": 2025,
+            "period_start": "2024-07-01",
+            "period_end": "2025-06-30",
+            "raw_source_ids": [
+              "2025:operating_cash_flow",
+              "2025:capital_expenditure"
+            ]
+          },
+          "current": {
+            "source_id": "2026:analytics.free_cash_flow",
+            "value": 66987000000.0,
+            "unit": "USD",
+            "fiscal_year": 2026,
+            "period_start": "2025-07-01",
+            "period_end": "2026-06-30",
+            "raw_source_ids": [
+              "2026:operating_cash_flow",
+              "2026:capital_expenditure"
+            ]
+          }
+        }
+      ],
+      "source_ids": [
+        "2025:operating_cash_flow",
+        "2026:operating_cash_flow",
+        "2025:capital_expenditure",
+        "2026:capital_expenditure"
+      ],
+      "economic_significance": "Cash retained after cash PP&E fell despite higher operating cash generation. Persistent investment needs could reduce cash available for distributions or other uses unless operating cash generation catches up.",
+      "competing_explanations": [
+        {
+          "case": "Constructive hypothesis",
+          "mechanism": "Investment could build productive assets whose cash returns follow the cash outlay.",
+          "category": "Unverified hypothesis",
+          "observation_basis_ids": [
+            "2026:cash_flow_divergence"
+          ],
+          "supporting_financial_ids": [
+            "2025:operating_cash_flow",
+            "2026:operating_cash_flow",
+            "2025:capital_expenditure",
+            "2026:capital_expenditure"
+          ],
+          "support_limit": "The financial pattern supports asking this question, not the proposed cause.",
+          "strengthening_condition": "Disclosed assets placed in service generate subsequent incremental cash after cash-tax/working-capital normalisation, with a reconciled PP&E and lease investment bridge.",
+          "weakening_condition": "Repeated outlays lack corresponding incremental cash generation, or cash-tax/collection timing benefits reverse. Neither outcome is established by this packet."
+        },
+        {
+          "case": "Cautionary hypothesis",
+          "mechanism": "Investment could remain persistently cash intensive, or current OCF could include cash-tax or collection timing effects that do not recur.",
+          "category": "Unverified hypothesis",
+          "observation_basis_ids": [
+            "2026:cash_flow_divergence"
+          ],
+          "supporting_financial_ids": [
+            "2025:operating_cash_flow",
+            "2026:operating_cash_flow",
+            "2025:capital_expenditure",
+            "2026:capital_expenditure"
+          ],
+          "support_limit": "The financial pattern does not prove deterioration or the proposed cause.",
+          "strengthening_condition": "Repeated outlays lack corresponding incremental cash generation, or cash-tax/collection timing benefits reverse. Neither outcome is established by this packet.",
+          "weakening_condition": "Disclosed assets placed in service generate subsequent incremental cash after cash-tax/working-capital normalisation, with a reconciled PP&E and lease investment bridge."
+        }
+      ],
+      "investment_implication": "Stronger OCF has not increased cash retained after PP&E. Distinguish a temporary deployment phase from recurring reinvestment before extrapolating operating growth into cash available for distributions; neither future returns nor a valuation change is established.",
+      "unresolved_question": "Can cash generation from deployed assets compensate for continuing reinvestment, after separating cash-tax and customer/supplier timing effects from operating progress?",
+      "missing_evidence": "Cash-tax and receivables/payables bridges; expansion versus replacement spending; leases and commitments; asset deployment, utilisation and monetisation. Corporate cash PP&E is not AI-only spending or an incremental-return measure.",
+      "warnings": [
+        "Matching annual periods and concept sets do not prove unchanged economic scope; acquisitions and restatements require review.",
+        "Annual rates are not normalised for differing fiscal-year day counts."
+      ],
+      "requires_analyst_review": true
+    },
+    {
+      "observation_id": "2026:revenue_profit_growth",
+      "observation": "Revenue and operating income increased materially",
+      "category": "Deterministic calculation",
+      "origin": "Python/reviewer research framework, not Gemini output",
+      "prior_period": {
+        "fiscal_year": 2025,
+        "period_start": "2024-07-01",
+        "period_end": "2025-06-30"
+      },
+      "current_period": {
+        "fiscal_year": 2026,
+        "period_start": "2025-07-01",
+        "period_end": "2026-06-30"
+      },
+      "comparisons": [
+        {
+          "metric": "revenue",
+          "prior": {
+            "source_id": "2025:revenue",
+            "value": 281724000000.0,
+            "unit": "USD",
+            "fiscal_year": 2025,
+            "period_start": "2024-07-01",
+            "period_end": "2025-06-30",
+            "raw_source_ids": [
+              "2025:revenue"
+            ]
+          },
+          "current": {
+            "source_id": "2026:revenue",
+            "value": 331839000000.0,
+            "unit": "USD",
+            "fiscal_year": 2026,
+            "period_start": "2025-07-01",
+            "period_end": "2026-06-30",
+            "raw_source_ids": [
+              "2026:revenue"
+            ]
+          }
+        },
+        {
+          "metric": "operating_income",
+          "prior": {
+            "source_id": "2025:operating_income",
+            "value": 128528000000.0,
+            "unit": "USD",
+            "fiscal_year": 2025,
+            "period_start": "2024-07-01",
+            "period_end": "2025-06-30",
+            "raw_source_ids": [
+              "2025:operating_income"
+            ]
+          },
+          "current": {
+            "source_id": "2026:operating_income",
+            "value": 155237000000.0,
+            "unit": "USD",
+            "fiscal_year": 2026,
+            "period_start": "2025-07-01",
+            "period_end": "2026-06-30",
+            "raw_source_ids": [
+              "2026:operating_income"
+            ]
+          }
+        },
+        {
+          "metric": "operating_margin",
+          "prior": {
+            "source_id": "2025:analytics.operating_margin",
+            "value": 0.4562195624085985,
+            "unit": "ratio",
+            "fiscal_year": 2025,
+            "period_start": "2024-07-01",
+            "period_end": "2025-06-30",
+            "raw_source_ids": [
+              "2025:operating_income",
+              "2025:revenue"
+            ]
+          },
+          "current": {
+            "source_id": "2026:analytics.operating_margin",
+            "value": 0.4678081840892722,
+            "unit": "ratio",
+            "fiscal_year": 2026,
+            "period_start": "2025-07-01",
+            "period_end": "2026-06-30",
+            "raw_source_ids": [
+              "2026:operating_income",
+              "2026:revenue"
+            ]
+          }
+        }
+      ],
+      "source_ids": [
+        "2025:revenue",
+        "2026:revenue",
+        "2025:operating_income",
+        "2026:operating_income"
+      ],
+      "economic_significance": "Revenue and operating profit growth can expand the resources available for reinvestment. Their value depends on persistence, cash conversion and the investment needed to sustain growth.",
+      "competing_explanations": [
+        {
+          "case": "Constructive hypothesis",
+          "mechanism": "Recurring demand, pricing or favourable mix could support operating earnings and cash generation.",
+          "category": "Unverified hypothesis",
+          "observation_basis_ids": [
+            "2026:revenue_profit_growth"
+          ],
+          "supporting_financial_ids": [
+            "2025:revenue",
+            "2026:revenue",
+            "2025:operating_income",
+            "2026:operating_income"
+          ],
+          "support_limit": "The financial pattern supports asking this question, not the proposed cause.",
+          "strengthening_condition": "A disclosed constant-currency/segment bridge shows recurring operating progress with cash conversion after required reinvestment.",
+          "weakening_condition": "A disclosed bridge is dominated by currency, temporary costs or scope changes, or reinvestment absorbs the operating cash gains. Aggregate growth does not establish these causes."
+        },
+        {
+          "case": "Cautionary hypothesis",
+          "mechanism": "Currency translation, segment mix, cost timing or accounting scope changes could explain part of the reported improvement without equivalent underlying demand growth.",
+          "category": "Unverified hypothesis",
+          "observation_basis_ids": [
+            "2026:revenue_profit_growth"
+          ],
+          "supporting_financial_ids": [
+            "2025:revenue",
+            "2026:revenue",
+            "2025:operating_income",
+            "2026:operating_income"
+          ],
+          "support_limit": "The financial pattern does not prove deterioration or the proposed cause.",
+          "strengthening_condition": "A disclosed bridge is dominated by currency, temporary costs or scope changes, or reinvestment absorbs the operating cash gains. Aggregate growth does not establish these causes.",
+          "weakening_condition": "A disclosed constant-currency/segment bridge shows recurring operating progress with cash conversion after required reinvestment."
+        }
+      ],
+      "investment_implication": "Reported operating growth may expand reinvestment capacity, but its persistence and required capital determine how much can become shareholder cash. Separate segment, currency and cost effects before treating aggregate growth as evidence of durable business quality.",
+      "unresolved_question": "Which disclosed demand, pricing, currency, segment-mix and cost changes explain operating growth, and does that growth convert into cash after required reinvestment?",
+      "missing_evidence": "A comparable segment/constant-currency bridge, recurring cost analysis and cash conversion. Net-income investment gains do not explain operating-income growth.",
+      "warnings": [
+        "Matching annual periods and concept sets do not prove unchanged economic scope; acquisitions and restatements require review.",
+        "Annual rates are not normalised for differing fiscal-year day counts."
+      ],
+      "requires_analyst_review": true
+    },
+    {
+      "observation_id": "2026:earnings_conversion_tension",
+      "observation": "Net income improved while free-cash-flow conversion deteriorated",
+      "category": "Deterministic calculation",
+      "origin": "Python/reviewer research framework, not Gemini output",
+      "prior_period": {
+        "fiscal_year": 2025,
+        "period_start": "2024-07-01",
+        "period_end": "2025-06-30"
+      },
+      "current_period": {
+        "fiscal_year": 2026,
+        "period_start": "2025-07-01",
+        "period_end": "2026-06-30"
+      },
+      "comparisons": [
+        {
+          "metric": "net_income",
+          "prior": {
+            "source_id": "2025:net_income",
+            "value": 101832000000.0,
+            "unit": "USD",
+            "fiscal_year": 2025,
+            "period_start": "2024-07-01",
+            "period_end": "2025-06-30",
+            "raw_source_ids": [
+              "2025:net_income"
+            ]
+          },
+          "current": {
+            "source_id": "2026:net_income",
+            "value": 133749000000.0,
+            "unit": "USD",
+            "fiscal_year": 2026,
+            "period_start": "2025-07-01",
+            "period_end": "2026-06-30",
+            "raw_source_ids": [
+              "2026:net_income"
+            ]
+          }
+        },
+        {
+          "metric": "free_cash_flow_conversion",
+          "prior": {
+            "source_id": "2025:analytics.free_cash_flow_conversion",
+            "value": 0.7032268834943829,
+            "unit": "ratio",
+            "fiscal_year": 2025,
+            "period_start": "2024-07-01",
+            "period_end": "2025-06-30",
+            "raw_source_ids": [
+              "2025:operating_cash_flow",
+              "2025:capital_expenditure",
+              "2025:net_income"
+            ]
+          },
+          "current": {
+            "source_id": "2026:analytics.free_cash_flow_conversion",
+            "value": 0.5008411277841329,
+            "unit": "ratio",
+            "fiscal_year": 2026,
+            "period_start": "2025-07-01",
+            "period_end": "2026-06-30",
+            "raw_source_ids": [
+              "2026:operating_cash_flow",
+              "2026:capital_expenditure",
+              "2026:net_income"
+            ]
+          }
+        }
+      ],
+      "source_ids": [
+        "2025:net_income",
+        "2026:net_income",
+        "2025:operating_cash_flow",
+        "2025:capital_expenditure",
+        "2026:operating_cash_flow",
+        "2026:capital_expenditure"
+      ],
+      "economic_significance": "Higher net income with lower FCF relative to net income makes the cash available after reinvestment a separate question from reported earnings growth.",
+      "competing_explanations": [
+        {
+          "case": "Constructive hypothesis",
+          "mechanism": "Investment or temporary cash-tax/collection timing could delay conversion of earnings into retained cash.",
+          "category": "Unverified hypothesis",
+          "observation_basis_ids": [
+            "2026:earnings_conversion_tension"
+          ],
+          "supporting_financial_ids": [
+            "2025:net_income",
+            "2026:net_income",
+            "2025:operating_cash_flow",
+            "2025:capital_expenditure",
+            "2026:operating_cash_flow",
+            "2026:capital_expenditure"
+          ],
+          "support_limit": "The financial pattern supports asking this question, not the proposed cause.",
+          "strengthening_condition": "A net-income-to-OCF bridge and subsequent PP&E/lease reconciliation show conversion recovering after identifiable temporary effects.",
+          "weakening_condition": "Conversion remains weak after separating non-operating items and timing. Low conversion alone does not establish poor earnings quality."
+        },
+        {
+          "case": "Cautionary hypothesis",
+          "mechanism": "Non-operating earnings effects or persistent reinvestment requirements could make reported net-income growth a weak proxy for distributable cash growth.",
+          "category": "Unverified hypothesis",
+          "observation_basis_ids": [
+            "2026:earnings_conversion_tension"
+          ],
+          "supporting_financial_ids": [
+            "2025:net_income",
+            "2026:net_income",
+            "2025:operating_cash_flow",
+            "2025:capital_expenditure",
+            "2026:operating_cash_flow",
+            "2026:capital_expenditure"
+          ],
+          "support_limit": "The financial pattern does not prove deterioration or the proposed cause.",
+          "strengthening_condition": "Conversion remains weak after separating non-operating items and timing. Low conversion alone does not establish poor earnings quality.",
+          "weakening_condition": "A net-income-to-OCF bridge and subsequent PP&E/lease reconciliation show conversion recovering after identifiable temporary effects."
+        }
+      ],
+      "investment_implication": "Net-income growth is not translating proportionately into cash retained after PP&E. Separate non-operating earnings, operating cash timing and cash investment before using earnings growth as a proxy for distributable cash.",
+      "unresolved_question": "How much of weaker earnings-to-FCF conversion comes from non-operating earnings, cash-tax/working-capital timing and reinvestment respectively?",
+      "missing_evidence": "A net-income/OCF reconciliation and cash investment scope. Do not treat investment gains in net income as operating-profit drivers.",
+      "warnings": [
+        "Matching annual periods and concept sets do not prove unchanged economic scope; acquisitions and restatements require review.",
+        "Annual rates are not normalised for differing fiscal-year day counts."
+      ],
+      "requires_analyst_review": true
+    }
+  ],
+  "requested_maximum": 3,
+  "available_distinct_developments": 3,
+  "limitation": "Causes, future cash returns and valuation are not mechanically proven. Fewer findings are shown when comparable evidence is insufficient."
+}

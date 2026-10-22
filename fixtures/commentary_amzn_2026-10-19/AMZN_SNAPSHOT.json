@@ -1,0 +1,834 @@
+{
+  "ticker": "AMZN",
+  "name": "AMAZON COM INC",
+  "cik": "0001018724",
+  "periods": [
+    {
+      "fiscal_year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metrics": {
+        "revenue": {
+          "value": 574785000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "unit": "USD",
+              "value": 574785000000.0,
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "operating_income": {
+          "value": 36852000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:OperatingIncomeLoss",
+              "unit": "USD",
+              "value": 36852000000.0,
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "net_income": {
+          "value": 30425000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:NetIncomeLoss",
+              "unit": "USD",
+              "value": 30425000000.0,
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "diluted_eps": {
+          "value": 2.9,
+          "unit": "USD/shares",
+          "sources": [
+            {
+              "concept": "us-gaap:EarningsPerShareDiluted",
+              "unit": "USD/shares",
+              "value": 2.9,
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "operating_cash_flow": {
+          "value": 84946000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "unit": "USD",
+              "value": 84946000000.0,
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "capital_expenditure": {
+          "value": null,
+          "unit": "USD",
+          "sources": [],
+          "reason": "No eligible USD 10-K/10-K/A fact (PaymentsToAcquirePropertyPlantAndEquipment) for annual duration 2023-01-01 to 2023-12-31; missing, wrong-unit or incompatible-period facts are not substituted."
+        },
+        "cash_and_equivalents": {
+          "value": 73387000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "unit": "USD",
+              "value": 73387000000.0,
+              "start": null,
+              "end": "2023-12-31",
+              "accession": "0001018724-25-000004",
+              "filed": "2025-02-07",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/0001018724-25-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "operating_margin": {
+          "value": 0.0641144079960333,
+          "unit": "ratio",
+          "sources": [
+            {
+              "concept": "us-gaap:OperatingIncomeLoss",
+              "unit": "USD",
+              "value": 36852000000.0,
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "unit": "USD",
+              "value": 574785000000.0,
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "free_cash_flow": {
+          "value": null,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "unit": "USD",
+              "value": 84946000000.0,
+              "start": "2023-01-01",
+              "end": "2023-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": "Free cash flow unavailable: No eligible USD 10-K/10-K/A fact (PaymentsToAcquirePropertyPlantAndEquipment) for annual duration 2023-01-01 to 2023-12-31; missing, wrong-unit or incompatible-period facts are not substituted."
+        },
+        "total_debt": {
+          "value": null,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:LongTermDebt",
+              "unit": "USD",
+              "value": 67182000000.0,
+              "start": null,
+              "end": "2023-12-31",
+              "accession": "0001018724-25-000004",
+              "filed": "2025-02-07",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/0001018724-25-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtCurrent",
+              "unit": "USD",
+              "value": 8494000000.0,
+              "start": null,
+              "end": "2023-12-31",
+              "accession": "0001018724-25-000004",
+              "filed": "2025-02-07",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/0001018724-25-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtNoncurrent",
+              "unit": "USD",
+              "value": 58314000000.0,
+              "start": null,
+              "end": "2023-12-31",
+              "accession": "0001018724-25-000004",
+              "filed": "2025-02-07",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/0001018724-25-000004-index.html"
+            }
+          ],
+          "reason": "Total debt unavailable: reported long-term debt disagrees with its current/noncurrent components."
+        },
+        "net_debt": {
+          "value": null,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:LongTermDebt",
+              "unit": "USD",
+              "value": 67182000000.0,
+              "start": null,
+              "end": "2023-12-31",
+              "accession": "0001018724-25-000004",
+              "filed": "2025-02-07",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/0001018724-25-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtCurrent",
+              "unit": "USD",
+              "value": 8494000000.0,
+              "start": null,
+              "end": "2023-12-31",
+              "accession": "0001018724-25-000004",
+              "filed": "2025-02-07",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/0001018724-25-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtNoncurrent",
+              "unit": "USD",
+              "value": 58314000000.0,
+              "start": null,
+              "end": "2023-12-31",
+              "accession": "0001018724-25-000004",
+              "filed": "2025-02-07",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/0001018724-25-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "unit": "USD",
+              "value": 73387000000.0,
+              "start": null,
+              "end": "2023-12-31",
+              "accession": "0001018724-25-000004",
+              "filed": "2025-02-07",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/0001018724-25-000004-index.html"
+            }
+          ],
+          "reason": "Net debt unavailable: Total debt unavailable: reported long-term debt disagrees with its current/noncurrent components."
+        }
+      }
+    },
+    {
+      "fiscal_year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metrics": {
+        "revenue": {
+          "value": 637959000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "unit": "USD",
+              "value": 637959000000.0,
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "operating_income": {
+          "value": 68593000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:OperatingIncomeLoss",
+              "unit": "USD",
+              "value": 68593000000.0,
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "net_income": {
+          "value": 59248000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:NetIncomeLoss",
+              "unit": "USD",
+              "value": 59248000000.0,
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "diluted_eps": {
+          "value": 5.53,
+          "unit": "USD/shares",
+          "sources": [
+            {
+              "concept": "us-gaap:EarningsPerShareDiluted",
+              "unit": "USD/shares",
+              "value": 5.53,
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "operating_cash_flow": {
+          "value": 115877000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "unit": "USD",
+              "value": 115877000000.0,
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "capital_expenditure": {
+          "value": null,
+          "unit": "USD",
+          "sources": [],
+          "reason": "No eligible USD 10-K/10-K/A fact (PaymentsToAcquirePropertyPlantAndEquipment) for annual duration 2024-01-01 to 2024-12-31; missing, wrong-unit or incompatible-period facts are not substituted."
+        },
+        "cash_and_equivalents": {
+          "value": 78779000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "unit": "USD",
+              "value": 78779000000.0,
+              "start": null,
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "operating_margin": {
+          "value": 0.1075194487420038,
+          "unit": "ratio",
+          "sources": [
+            {
+              "concept": "us-gaap:OperatingIncomeLoss",
+              "unit": "USD",
+              "value": 68593000000.0,
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "unit": "USD",
+              "value": 637959000000.0,
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "free_cash_flow": {
+          "value": null,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "unit": "USD",
+              "value": 115877000000.0,
+              "start": "2024-01-01",
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": "Free cash flow unavailable: No eligible USD 10-K/10-K/A fact (PaymentsToAcquirePropertyPlantAndEquipment) for annual duration 2024-01-01 to 2024-12-31; missing, wrong-unit or incompatible-period facts are not substituted."
+        },
+        "total_debt": {
+          "value": null,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:LongTermDebt",
+              "unit": "USD",
+              "value": 58000000000.0,
+              "start": null,
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtCurrent",
+              "unit": "USD",
+              "value": 5017000000.0,
+              "start": null,
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtNoncurrent",
+              "unit": "USD",
+              "value": 52623000000.0,
+              "start": null,
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": "Total debt unavailable: reported long-term debt disagrees with its current/noncurrent components."
+        },
+        "net_debt": {
+          "value": null,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:LongTermDebt",
+              "unit": "USD",
+              "value": 58000000000.0,
+              "start": null,
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtCurrent",
+              "unit": "USD",
+              "value": 5017000000.0,
+              "start": null,
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtNoncurrent",
+              "unit": "USD",
+              "value": 52623000000.0,
+              "start": null,
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "unit": "USD",
+              "value": 78779000000.0,
+              "start": null,
+              "end": "2024-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": "Net debt unavailable: Total debt unavailable: reported long-term debt disagrees with its current/noncurrent components."
+        }
+      }
+    },
+    {
+      "fiscal_year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metrics": {
+        "revenue": {
+          "value": 716924000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "unit": "USD",
+              "value": 716924000000.0,
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "operating_income": {
+          "value": 79975000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:OperatingIncomeLoss",
+              "unit": "USD",
+              "value": 79975000000.0,
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "net_income": {
+          "value": 77670000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:NetIncomeLoss",
+              "unit": "USD",
+              "value": 77670000000.0,
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "diluted_eps": {
+          "value": 7.17,
+          "unit": "USD/shares",
+          "sources": [
+            {
+              "concept": "us-gaap:EarningsPerShareDiluted",
+              "unit": "USD/shares",
+              "value": 7.17,
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "operating_cash_flow": {
+          "value": 139514000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "unit": "USD",
+              "value": 139514000000.0,
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "capital_expenditure": {
+          "value": null,
+          "unit": "USD",
+          "sources": [],
+          "reason": "No eligible USD 10-K/10-K/A fact (PaymentsToAcquirePropertyPlantAndEquipment) for annual duration 2025-01-01 to 2025-12-31; missing, wrong-unit or incompatible-period facts are not substituted."
+        },
+        "cash_and_equivalents": {
+          "value": 86810000000.0,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "unit": "USD",
+              "value": 86810000000.0,
+              "start": null,
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "operating_margin": {
+          "value": 0.11155296795755199,
+          "unit": "ratio",
+          "sources": [
+            {
+              "concept": "us-gaap:OperatingIncomeLoss",
+              "unit": "USD",
+              "value": 79975000000.0,
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "unit": "USD",
+              "value": 716924000000.0,
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": ""
+        },
+        "free_cash_flow": {
+          "value": null,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "unit": "USD",
+              "value": 139514000000.0,
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": "Free cash flow unavailable: No eligible USD 10-K/10-K/A fact (PaymentsToAcquirePropertyPlantAndEquipment) for annual duration 2025-01-01 to 2025-12-31; missing, wrong-unit or incompatible-period facts are not substituted."
+        },
+        "total_debt": {
+          "value": null,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:LongTermDebt",
+              "unit": "USD",
+              "value": 68836000000.0,
+              "start": null,
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtCurrent",
+              "unit": "USD",
+              "value": 2748000000.0,
+              "start": null,
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtNoncurrent",
+              "unit": "USD",
+              "value": 65648000000.0,
+              "start": null,
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": "Total debt unavailable: reported long-term debt disagrees with its current/noncurrent components."
+        },
+        "net_debt": {
+          "value": null,
+          "unit": "USD",
+          "sources": [
+            {
+              "concept": "us-gaap:LongTermDebt",
+              "unit": "USD",
+              "value": 68836000000.0,
+              "start": null,
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtCurrent",
+              "unit": "USD",
+              "value": 2748000000.0,
+              "start": null,
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:LongTermDebtNoncurrent",
+              "unit": "USD",
+              "value": 65648000000.0,
+              "start": null,
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            },
+            {
+              "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "unit": "USD",
+              "value": 86810000000.0,
+              "start": null,
+              "end": "2025-12-31",
+              "accession": "0001018724-26-000004",
+              "filed": "2026-02-06",
+              "form": "10-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.html"
+            }
+          ],
+          "reason": "Net debt unavailable: Total debt unavailable: reported long-term debt disagrees with its current/noncurrent components."
+        }
+      }
+    }
+  ],
+  "mode": "offline",
+  "retrieved_at": "2026-10-18T16:53:25.036513+00:00",
+  "warnings": [
+    "TEST-ONLY CACHED SEC SNAPSHOT: extracted offline from pre-existing public SEC cache. Not a fresh download, current market data, a model response or an additional user-interface offline company.",
+    "The supported standard-tag extraction returns capital expenditure, free cash flow, total debt and net debt as N/A; no substitutes or zero values were invented."
+  ],
+  "filings": [
+    {
+      "form": "10-K",
+      "filing_date": "2026-02-06",
+      "report_date": "2025-12-31",
+      "accession": "0001018724-26-000004",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+    },
+    {
+      "form": "10-K",
+      "filing_date": "2025-02-07",
+      "report_date": "2024-12-31",
+      "accession": "0001018724-25-000004",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm"
+    },
+    {
+      "form": "10-K",
+      "filing_date": "2024-02-02",
+      "report_date": "2023-12-31",
+      "accession": "0001018724-24-000008",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm"
+    },
+    {
+      "form": "10-K",
+      "filing_date": "2023-02-03",
+      "report_date": "2022-12-31",
+      "accession": "0001018724-23-000004",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000004/amzn-20221231.htm"
+    },
+    {
+      "form": "10-K",
+      "filing_date": "2022-02-04",
+      "report_date": "2021-12-31",
+      "accession": "0001018724-22-000005",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872422000005/amzn-20211231.htm"
+    },
+    {
+      "form": "10-K",
+      "filing_date": "2021-02-03",
+      "report_date": "2020-12-31",
+      "accession": "0001018724-21-000004",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872421000004/amzn-20201231.htm"
+    }
+  ]
+}

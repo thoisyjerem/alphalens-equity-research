@@ -1,0 +1,24 @@
+{
+  "record_type": "Actual approved live Gemini commentary response, retained for offline regression",
+  "captured_on": "2026-10-18",
+  "source_record": "outputs/commentary_recovery_2026-10-18/live_result/COMPLETE_RESPONSE.json",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "http_status": 200,
+  "http_latency_seconds": 1.907,
+  "usage": {
+    "prompt_tokens": 11641,
+    "completion_tokens": 295,
+    "total_tokens": 11936
+  },
+  "request_headers_or_credentials_included": false,
+  "testing_notice": "Replaying this saved response uses mocked HTTP and no real API key; this is not a new live evaluation.",
+  "quality_limits": [
+    "The first observation cites FY2024/FY2025, not the latest FY2026.",
+    "Free-cash-flow fluctuations is imprecise; the selected annual series declines.",
+    "Questions are broad and uncited; mechanical acceptance does not establish analytical quality."
+  ],
+  "files": {
+    "COMPLETE_RESPONSE.json": "c2ff3bf4b24f8d4773f651496d5b0e4caf2c65997f6854f57cfe1b1c369eaa82"
+  }
+}

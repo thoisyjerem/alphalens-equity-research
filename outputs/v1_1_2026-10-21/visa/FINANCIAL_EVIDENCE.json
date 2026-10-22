@@ -1,0 +1,503 @@
+{
+  "2023:revenue": {
+    "kind": "financial",
+    "value": 32653000000.0,
+    "unit": "USD",
+    "fiscal_year": 2023,
+    "period_start": "2022-10-01",
+    "period_end": "2023-09-30",
+    "metric": "revenue",
+    "sources": [
+      {
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 32653000000.0,
+        "start": "2022-10-01",
+        "end": "2023-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2023:operating_income": {
+    "kind": "financial",
+    "value": 21000000000.0,
+    "unit": "USD",
+    "fiscal_year": 2023,
+    "period_start": "2022-10-01",
+    "period_end": "2023-09-30",
+    "metric": "operating_income",
+    "sources": [
+      {
+        "concept": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 21000000000.0,
+        "start": "2022-10-01",
+        "end": "2023-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2023:net_income": {
+    "kind": "financial",
+    "value": 17273000000.0,
+    "unit": "USD",
+    "fiscal_year": 2023,
+    "period_start": "2022-10-01",
+    "period_end": "2023-09-30",
+    "metric": "net_income",
+    "sources": [
+      {
+        "concept": "us-gaap:NetIncomeLoss",
+        "unit": "USD",
+        "value": 17273000000.0,
+        "start": "2022-10-01",
+        "end": "2023-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2023:operating_cash_flow": {
+    "kind": "financial",
+    "value": 20755000000.0,
+    "unit": "USD",
+    "fiscal_year": 2023,
+    "period_start": "2022-10-01",
+    "period_end": "2023-09-30",
+    "metric": "operating_cash_flow",
+    "sources": [
+      {
+        "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 20755000000.0,
+        "start": "2022-10-01",
+        "end": "2023-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2023:cash_and_equivalents": {
+    "kind": "financial",
+    "value": 16286000000.0,
+    "unit": "USD",
+    "fiscal_year": 2023,
+    "period_start": null,
+    "period_end": "2023-09-30",
+    "metric": "cash_and_equivalents",
+    "sources": [
+      {
+        "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 16286000000.0,
+        "start": null,
+        "end": "2023-09-30",
+        "accession": "0001403161-24-000058",
+        "filed": "2024-11-13",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316124000058/0001403161-24-000058-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2023:operating_margin": {
+    "kind": "financial",
+    "value": 0.6431262058616359,
+    "unit": "ratio",
+    "fiscal_year": 2023,
+    "period_start": "2022-10-01",
+    "period_end": "2023-09-30",
+    "metric": "operating_margin",
+    "sources": [
+      {
+        "concept": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 21000000000.0,
+        "start": "2022-10-01",
+        "end": "2023-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      },
+      {
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 32653000000.0,
+        "start": "2022-10-01",
+        "end": "2023-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2024:revenue": {
+    "kind": "financial",
+    "value": 35926000000.0,
+    "unit": "USD",
+    "fiscal_year": 2024,
+    "period_start": "2023-10-01",
+    "period_end": "2024-09-30",
+    "metric": "revenue",
+    "sources": [
+      {
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 35926000000.0,
+        "start": "2023-10-01",
+        "end": "2024-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2024:operating_income": {
+    "kind": "financial",
+    "value": 23595000000.0,
+    "unit": "USD",
+    "fiscal_year": 2024,
+    "period_start": "2023-10-01",
+    "period_end": "2024-09-30",
+    "metric": "operating_income",
+    "sources": [
+      {
+        "concept": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 23595000000.0,
+        "start": "2023-10-01",
+        "end": "2024-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2024:net_income": {
+    "kind": "financial",
+    "value": 19743000000.0,
+    "unit": "USD",
+    "fiscal_year": 2024,
+    "period_start": "2023-10-01",
+    "period_end": "2024-09-30",
+    "metric": "net_income",
+    "sources": [
+      {
+        "concept": "us-gaap:NetIncomeLoss",
+        "unit": "USD",
+        "value": 19743000000.0,
+        "start": "2023-10-01",
+        "end": "2024-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2024:operating_cash_flow": {
+    "kind": "financial",
+    "value": 19950000000.0,
+    "unit": "USD",
+    "fiscal_year": 2024,
+    "period_start": "2023-10-01",
+    "period_end": "2024-09-30",
+    "metric": "operating_cash_flow",
+    "sources": [
+      {
+        "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 19950000000.0,
+        "start": "2023-10-01",
+        "end": "2024-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2024:cash_and_equivalents": {
+    "kind": "financial",
+    "value": 11975000000.0,
+    "unit": "USD",
+    "fiscal_year": 2024,
+    "period_start": null,
+    "period_end": "2024-09-30",
+    "metric": "cash_and_equivalents",
+    "sources": [
+      {
+        "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 11975000000.0,
+        "start": null,
+        "end": "2024-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2024:operating_margin": {
+    "kind": "financial",
+    "value": 0.6567666870789957,
+    "unit": "ratio",
+    "fiscal_year": 2024,
+    "period_start": "2023-10-01",
+    "period_end": "2024-09-30",
+    "metric": "operating_margin",
+    "sources": [
+      {
+        "concept": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 23595000000.0,
+        "start": "2023-10-01",
+        "end": "2024-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      },
+      {
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 35926000000.0,
+        "start": "2023-10-01",
+        "end": "2024-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2025:revenue": {
+    "kind": "financial",
+    "value": 40000000000.0,
+    "unit": "USD",
+    "fiscal_year": 2025,
+    "period_start": "2024-10-01",
+    "period_end": "2025-09-30",
+    "metric": "revenue",
+    "sources": [
+      {
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 40000000000.0,
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2025:operating_income": {
+    "kind": "financial",
+    "value": 23994000000.0,
+    "unit": "USD",
+    "fiscal_year": 2025,
+    "period_start": "2024-10-01",
+    "period_end": "2025-09-30",
+    "metric": "operating_income",
+    "sources": [
+      {
+        "concept": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 23994000000.0,
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2025:net_income": {
+    "kind": "financial",
+    "value": 20058000000.0,
+    "unit": "USD",
+    "fiscal_year": 2025,
+    "period_start": "2024-10-01",
+    "period_end": "2025-09-30",
+    "metric": "net_income",
+    "sources": [
+      {
+        "concept": "us-gaap:NetIncomeLoss",
+        "unit": "USD",
+        "value": 20058000000.0,
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2025:operating_cash_flow": {
+    "kind": "financial",
+    "value": 23059000000.0,
+    "unit": "USD",
+    "fiscal_year": 2025,
+    "period_start": "2024-10-01",
+    "period_end": "2025-09-30",
+    "metric": "operating_cash_flow",
+    "sources": [
+      {
+        "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 23059000000.0,
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2025:cash_and_equivalents": {
+    "kind": "financial",
+    "value": 17164000000.0,
+    "unit": "USD",
+    "fiscal_year": 2025,
+    "period_start": null,
+    "period_end": "2025-09-30",
+    "metric": "cash_and_equivalents",
+    "sources": [
+      {
+        "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 17164000000.0,
+        "start": null,
+        "end": "2025-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  },
+  "2025:operating_margin": {
+    "kind": "financial",
+    "value": 0.59985,
+    "unit": "ratio",
+    "fiscal_year": 2025,
+    "period_start": "2024-10-01",
+    "period_end": "2025-09-30",
+    "metric": "operating_margin",
+    "sources": [
+      {
+        "concept": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 23994000000.0,
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      },
+      {
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 40000000000.0,
+        "start": "2024-10-01",
+        "end": "2025-09-30",
+        "accession": "0001403161-25-000089",
+        "filed": "2025-11-06",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.html"
+      }
+    ],
+    "ticker": "V",
+    "cik": "0001403161",
+    "mode": "live",
+    "retrieved_at": "2026-10-21T18:44:37.964591+00:00"
+  }
+}

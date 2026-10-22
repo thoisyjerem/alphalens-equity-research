@@ -1,0 +1,501 @@
+{
+  "mode": "offline revalidation and independent source tie-out of genuine18Oct2026 briefing",
+  "original_model": "gemini-3.5-flash-lite",
+  "original_usage": {
+    "input_tokens": 5381,
+    "output_tokens": 560,
+    "total_tokens": 5941
+  },
+  "new_ai_requests": 0,
+  "fresh_sec_retrievals": 0,
+  "credentials_read": false,
+  "original_bundle_unchanged": true,
+  "historical_bundle_sha256": {
+    "ANALYST_REVIEW.md": "c6a978e82ac50619ad9750fe2cac9c0b9ebf6b0f71b30ef4c3e1129ed2167167",
+    "ASSEMBLED_REPORT.json": "b69179ee4644f067fe2b0b16f2da1444817c8e5f808f16d3d61d1c7f0de7702e",
+    "COMPLETE_RESPONSE.json": "6ce0b2a02eeeba4ce472bf82664580ea49c8496d9d1c7cb717715b991d0446a0",
+    "DEMO_MANIFEST.json": "e004cc479bde3cdd132cc985f540cc74445327c8334d8b18cc8d0b59ddf147bb",
+    "FINANCIAL_ANALYSIS.json": "0b7c5118bac54cd36fa82793eba7572da4449485d56e355d49b0c26382982b83",
+    "FINANCIAL_OBSERVATIONS.json": "9658c20b99df239a2c5c4daa0d46325697d5e3fe5306fb9d41b25837bf9ddbe7",
+    "FOCUSED_CONTEXT.json": "ed33f6bada3de202fce5c8aa5ce752d45c28e6afc89e4ab29cce5141a87e6147",
+    "HTTP_RESPONSE_BODY.txt": "0000a7201c89d0c34a114f1c3fdb9ffbfc7939c967358a30a2eb3c0af2d1f7e5",
+    "INDEPENDENT_CHECKS.json": "36b993a813db221d8b9983a269e8b2de190e23ab83ccbe5afe5305780ec55d5c",
+    "INITIAL_RESEARCH_BRIEFING.json": "491f1a4c3723bfbdfe501455ca8bcb36024c418ac7278b735f43ad1d92f88d12",
+    "INITIAL_RESEARCH_BRIEFING.md": "ab633a03f202fe3a10b0d6fad1a1f8175a766fc912cdc82098d6d31166ad74ec",
+    "MECHANICAL_EVALUATION.json": "dd32b51b92e457ffc9e5e62413ad50e28c784b6359e30ad1029ec9a055cc03f4",
+    "MECHANICAL_EVALUATION.md": "d0471f4969c7fa1b6dd38441900c749859dbb7206e8d47b4d340ea901b201abb",
+    "MICROSOFT_RESEARCH_NOTE.md": "f25fafe09f23d137b11958c82ef7dc68b67c41a1ba7710eb16a5f2682ccf0bc4",
+    "MODEL_INTERPRETATION.json": "f17a521350c6ea8d948c9176347e8fa23ef6868005b28570a6837292b793dca8",
+    "MODEL_REQUEST.json": "68483afb4765b5ee4f19efec99de5fda341f6f839c044e7af9db493bf6bd7ce9",
+    "REQUEST_LEDGER.json": "1a5489bcab24be3c1ef87ede9d1ff9b2fe0c209dbb486ddcf58a8b8ec895be98",
+    "RESEARCH_BRIEFING.json": "d25b56adbcb9fa82bf094d4c5e497298149223a5c67cb4b20d738e1c5dbdc899",
+    "RESEARCH_BRIEFING.md": "7e342d33e998061027c4a68f064dc1f7e5c0454d696d0f760f3d9010fead924f",
+    "REVIEW_NOTES.md": "1b28d6885a7f61cb4e8ea7bc1fae1ff045755699a27660592902ff5bee8273fa",
+    "SOURCE_CATALOG.json": "abe84f08b89d7f9fe542d55262965795265be970b4ad488b27e43c0be03716d5",
+    "TRANSPORT_OUTPUT.json": "75e2c75c42af7e559262e94a94f89788de5261fc7270c8733580f96e6220a799",
+    "VALIDATION.json": "ba8df745bd12caea15ef5805184747ffa0b4b121092830b8ec7a3007e7159aa6"
+  },
+  "whole_local_validation_passed": true,
+  "semantic_analyst_approval": false,
+  "revised20oct_prompt_validated": false,
+  "financial_citation_occurrences_matched": 36,
+  "unique_financial_ids": [
+    "2025:capital_expenditure",
+    "2025:operating_cash_flow",
+    "2025:operating_income",
+    "2025:revenue",
+    "2026:capital_expenditure",
+    "2026:operating_cash_flow",
+    "2026:operating_income",
+    "2026:revenue"
+  ],
+  "quote_occurrences_matched": 7,
+  "unique_passage_ids": [
+    "sec:2b952351bdb846469a21de3f",
+    "sec:56d67b25b672d6b595978ea9",
+    "sec:838fe0caa8c807af7d81b902"
+  ],
+  "raw_companyfacts_path": "fixtures/msft_companyfacts.json",
+  "raw_companyfacts_sha256": "f8aae2965b20ad0df44bdf7ccbedf797d275b6b8dc030154a7a311361bb7246f",
+  "financial_checks": [
+    {
+      "claim": "performance[0]",
+      "source_id": "2025:operating_cash_flow",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "performance[0]",
+      "source_id": "2026:operating_cash_flow",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "performance[0]",
+      "source_id": "2025:capital_expenditure",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "performance[0]",
+      "source_id": "2026:capital_expenditure",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "performance[1]",
+      "source_id": "2025:revenue",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "performance[1]",
+      "source_id": "2026:revenue",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "performance[1]",
+      "source_id": "2025:operating_income",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "performance[1]",
+      "source_id": "2026:operating_income",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "investment_considerations[0]",
+      "source_id": "2025:operating_cash_flow",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "investment_considerations[0]",
+      "source_id": "2026:operating_cash_flow",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "investment_considerations[0]",
+      "source_id": "2025:capital_expenditure",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "investment_considerations[0]",
+      "source_id": "2026:capital_expenditure",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "investment_considerations[1]",
+      "source_id": "2025:revenue",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "investment_considerations[1]",
+      "source_id": "2026:revenue",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "investment_considerations[1]",
+      "source_id": "2025:operating_income",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "investment_considerations[1]",
+      "source_id": "2026:operating_income",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "executive_summary[0]",
+      "source_id": "2025:operating_cash_flow",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "executive_summary[0]",
+      "source_id": "2026:operating_cash_flow",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "executive_summary[0]",
+      "source_id": "2025:capital_expenditure",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "executive_summary[0]",
+      "source_id": "2026:capital_expenditure",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "executive_summary[1]",
+      "source_id": "2025:revenue",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "executive_summary[1]",
+      "source_id": "2026:revenue",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "executive_summary[1]",
+      "source_id": "2025:operating_income",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "executive_summary[1]",
+      "source_id": "2026:operating_income",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "what_matters_most[0]",
+      "source_id": "2025:operating_cash_flow",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "what_matters_most[0]",
+      "source_id": "2026:operating_cash_flow",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "what_matters_most[0]",
+      "source_id": "2025:capital_expenditure",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "what_matters_most[0]",
+      "source_id": "2026:capital_expenditure",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "what_matters_most[1]",
+      "source_id": "2025:revenue",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "what_matters_most[1]",
+      "source_id": "2026:revenue",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "what_matters_most[1]",
+      "source_id": "2025:operating_income",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "what_matters_most[1]",
+      "source_id": "2026:operating_income",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "capital_allocation[0]",
+      "source_id": "2025:operating_cash_flow",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "capital_allocation[0]",
+      "source_id": "2026:operating_cash_flow",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "capital_allocation[0]",
+      "source_id": "2025:capital_expenditure",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    },
+    {
+      "claim": "capital_allocation[0]",
+      "source_id": "2026:capital_expenditure",
+      "exact_amount_unit_period_match": true,
+      "raw_sec_fact_matches": [
+        {
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "accession": "0001193125-26-323660",
+          "matches": 1
+        }
+      ]
+    }
+  ],
+  "claim_counts": {
+    "evidence_checked": 3,
+    "interpretation": 7,
+    "question": 3
+  },
+  "reviewer_table_source": "sec:3eb3eccc7d1065f444ebdf69",
+  "reviewer_calculations_not_model_output": true
+}

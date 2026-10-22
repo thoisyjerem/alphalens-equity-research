@@ -1,0 +1,16 @@
+{
+  "origin": "actual_single_approved_Gemini_request",
+  "model": "gemini-3.5-flash-lite",
+  "http_status": 200,
+  "date": "2026-10-19",
+  "input_tokens": 1443,
+  "output_tokens": 220,
+  "source_fixture": "fixtures/commentary_amzn_2026-10-19/AMZN_SNAPSHOT.json",
+  "source_mode_for_original_request": "live_with_cached_responses",
+  "source_fingerprint": "73f299853876d31b1f81fe5d314e6b86936b2e428ac2e1d096b297c33771c936",
+  "sha256": {
+    "COMPLETE_RESPONSE.json": "65a542f2855352dd55bcf3b3f87bea1f0db489df581a54abdca25fc3d3c155fc",
+    "REQUEST_BODY.json": "e47b3a38af0ce1db5376ed0f8c4810362d6902be172089fe42def95d8ee9703f",
+    "VALIDATED_COMMENTARY.json": "b502b18a150f13b1cab8832f652b9362de952508088b9ae55c2d3384199b5748"
+  }
+}

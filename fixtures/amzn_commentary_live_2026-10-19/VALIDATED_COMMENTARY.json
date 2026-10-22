@@ -1,0 +1,24 @@
+{
+  "observations": [
+    {
+      "text": "The material increase in revenue alongside higher operating income and a slightly improved operating margin could suggest enhanced top-line expansion relative to operating expenses. Such developments might support greater operational cash generation potential over the comparative period, although financial data alone does not establish causal drivers.",
+      "evidence_ids": [
+        "2024:revenue",
+        "2025:revenue",
+        "2024:operating_income",
+        "2025:operating_income"
+      ]
+    }
+  ],
+  "questions": [
+    "What percentage of the revenue growth originated from specific business segments rather than general expansion?",
+    "How did changes in working capital components affect cash flows during the comparative fiscal periods?",
+    "Were any of the observed operating income gains influenced by one-off expense reductions?",
+    "What unobserved capital allocation choices might have influenced future cash conversion dynamics?"
+  ],
+  "caveats": [
+    "Matching annual periods and concept sets do not prove unchanged economic scope, as acquisitions and restatements require review.",
+    "Financial data alone does not establish causal drivers, business developments, management statements, or competitive events.",
+    "Spending does not establish poor or attractive returns, a moat, or valuation."
+  ]
+}

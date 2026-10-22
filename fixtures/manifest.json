@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "label": "Offline demonstration \u2014 genuine SEC response snapshot captured 16 October 2026",
+  "mode": "offline_fixture",
+  "company": "Microsoft Corporation",
+  "ticker": "MSFT",
+  "cik": "0000789019",
+  "captured_at": "2026-10-16T16:18:31.557907+00:00",
+  "latest_three_fiscal_years": [
+    2024,
+    2025,
+    2026
+  ],
+  "capture_method": "Direct identified SEC HTTPS responses; contact identifier intentionally excluded from fixtures and manifest.",
+  "transformation": "None. Raw SEC responses are complete and byte-for-byte unmodified. The app performs all filtering and calculations at run time.",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/files/company_tickers.json",
+      "local_path": "company_tickers.json",
+      "captured_at": "2026-10-16T16:18:29.096489+00:00",
+      "capture_method": "Direct identified HTTPS GET using user-configured SEC User-Agent; exact raw response bytes retained.",
+      "transformation": "None. Complete unmodified JSON response."
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "local_path": "msft_submissions.json",
+      "captured_at": "2026-10-16T16:18:29.844599+00:00",
+      "capture_method": "Direct identified HTTPS GET using user-configured SEC User-Agent; exact raw response bytes retained.",
+      "transformation": "None. Complete unmodified JSON response."
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+      "local_path": "msft_companyfacts.json",
+      "captured_at": "2026-10-16T16:18:31.557907+00:00",
+      "capture_method": "Direct identified HTTPS GET using user-configured SEC User-Agent; exact raw response bytes retained.",
+      "transformation": "None. Complete unmodified JSON response."
+    },
+    {
+      "url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+      "local_path": "sources/msft_ar24.html",
+      "captured_at": "2026-10-16T16:18:07.413700+00:00",
+      "capture_method": "Direct HTTPS GET from Microsoft investor relations; original HTML retained.",
+      "transformation": "None. Original response bytes retained for independent source cross-checks."
+    },
+    {
+      "url": "https://www.microsoft.com/investor/reports/ar25/index.html",
+      "local_path": "sources/msft_ar25.html",
+      "captured_at": "2026-10-16T16:18:06.253333+00:00",
+      "capture_method": "Direct HTTPS GET from Microsoft investor relations; original HTML retained.",
+      "transformation": "None. Original response bytes retained for independent source cross-checks."
+    }
+  ],
+  "limitations": [
+    "This is a checked-in snapshot used only in explicitly labelled offline mode. It is never live data and is not automatically refreshed.",
+    "The fixture's latest completed fiscal years are FY2024, FY2025 and FY2026, as present in the SEC snapshot; the earlier issuer annual reports independently cross-check historical FY2023\u2013FY2025 values.",
+    "Financial fixtures are available for Microsoft only. The complete official ticker mapping also includes Apple and Amazon for live identification.",
+    "Availability in a source document does not imply availability in companyfacts. Missing companyfacts concepts must remain N/A rather than being filled by inference."
+  ],
+  "files": {
+    "company_tickers.json": {
+      "sha256": "5df1323d2c05ca6dea661d2b7c73cb8c86649bbf43f28e83280f484c214837d6",
+      "bytes": 799355
+    },
+    "msft_companyfacts.json": {
+      "sha256": "f8aae2965b20ad0df44bdf7ccbedf797d275b6b8dc030154a7a311361bb7246f",
+      "bytes": 4881196
+    },
+    "msft_submissions.json": {
+      "sha256": "a5848ba348a3d3ae08c3c40bf4599379014be077911e6550ed3a8182a34a6a7b",
+      "bytes": 185024
+    },
+    "README.md": {
+      "sha256": "008620382998a9d353d8625740bb4282928f221c24de074f09693826f6549a3e",
+      "bytes": 1520
+    },
+    "sources/msft_ar24.html": {
+      "sha256": "2b49e38b25f3bea8634b603ad5db64ba0803f27e27f93cc406884e6990974065",
+      "bytes": 486883
+    },
+    "sources/msft_ar25.html": {
+      "sha256": "564154a15ac28c0f7f72f304ae26b74c29cfca9f3eafe8d59595776769d621ca",
+      "bytes": 601259
+    }
+  }
+}

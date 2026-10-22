@@ -1,0 +1,51 @@
+{
+  "executive_interpretation": {
+    "observation_ids": [
+      "2026:revenue_profit_growth"
+    ],
+    "interpretation": "Revenue and operating income grew alongside favorable foreign currency impacts, while operating income benefited from growth across Productivity and Business Processes and Intelligent Cloud segments.",
+    "supporting_passage_ids": [
+      "sec:2b952351bdb846469a21de3f"
+    ]
+  },
+  "primary_finding": {
+    "interpretation": "Operating cash flow increased while free cash flow declined as cash PP&E purchases expanded at a faster pace than operating cash flow, absorbing a larger share of cash generated.",
+    "supporting_passage_ids": [
+      "sec:838fe0caa8c807af7d81b902"
+    ],
+    "alternative_explanation": "The divergence might reflect timing differences in supplier payments and tax receipts rather than structural operational changes.",
+    "limitations": [
+      "Cash capex represents total company property and equipment additions rather than segment-specific or AI-focused investments."
+    ]
+  },
+  "findings": [
+    {
+      "interpretation": "Investment intensity increased significantly as capital expenditures consumed a much larger share of both revenue and operating cash flow.",
+      "supporting_passage_ids": [
+        "sec:37f112340286145a10842b03"
+      ],
+      "alternative_explanation": "Higher capital intensity could reflect multi-year datacenter investments designed to capture future secular demand rather than near-term operational inefficiency.",
+      "limitations": [
+        "The data does not establish whether these investments will generate returns matching historical thresholds."
+      ],
+      "observation_ids": [
+        "2026:investment_intensity"
+      ]
+    }
+  ],
+  "risks": [
+    {
+      "interpretation": "Electricity generation, transmission, and distribution infrastructure constraints, including power availability limits and delays in connections, could restrict the ability to develop or expand datacenter capacity.",
+      "supporting_passage_ids": [
+        "sec:56d67b25b672d6b595978ea9"
+      ],
+      "limitations": [
+        "External power constraints may delay deployment schedules and affect capital project execution."
+      ]
+    }
+  ],
+  "unanswered_questions": [
+    "What is the expected utilisation rate and payback period for the newly deployed datacenter assets?",
+    "How will regional power constraints impact the timeline of upcoming infrastructure expansion?"
+  ]
+}

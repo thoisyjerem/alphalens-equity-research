@@ -1,0 +1,15 @@
+{
+  "scope": "Exact saved failed Gemini request/response bodies, replayed only through mocked HTTP",
+  "source_directory": "outputs/live_gemini_2026-10-17",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "http_status": 400,
+  "error_details_available": false,
+  "contains_credentials_or_headers": false,
+  "files": {
+    "brief.request.json": "49bea214e29e92d4e9fbe933fdfd625838f8313ba55ce2b6febf716b7e362c36",
+    "brief.complete_response.json": "7bfe9f802945d6b9f063d345127d85fa3899293eed6aa60b71869028840ef28c",
+    "challenge.request.json": "12852ec6aed8b9477b904d44e69cdfc4d164d4d957c4f359885dae3536830b4a",
+    "challenge.complete_response.json": "7bfe9f802945d6b9f063d345127d85fa3899293eed6aa60b71869028840ef28c"
+  }
+}

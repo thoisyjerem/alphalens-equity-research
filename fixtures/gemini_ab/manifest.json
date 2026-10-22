@@ -1,0 +1,16 @@
+{
+  "scope": "Actual approved A/B diagnostics replayed offline only",
+  "source_directory": "outputs\\gemini_ab_2026-10-17",
+  "maximum_approved_requests": 2,
+  "files": {
+    "a.request.json": "bd0ee7e447eb04f26422a192bd36051bd6afbb175599f317544f3d88aef908be",
+    "a.complete_response.json": "7bfe9f802945d6b9f063d345127d85fa3899293eed6aa60b71869028840ef28c",
+    "b.request.json": "4102c829c98492b7e420af460ba8fe1612adf2c5f55160f6c89df6cdebac2c85",
+    "b.complete_response.json": "3cd976b6c76ae01f0349dc8098c11691ec7531607603d7dd52eb7fafbe2154d3"
+  },
+  "actual_results": {
+    "A": 400,
+    "B": 200
+  },
+  "note": "B status success is a minimal-schema diagnostic, not an investment report"
+}

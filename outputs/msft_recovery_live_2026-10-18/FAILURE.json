@@ -1,0 +1,28 @@
+{
+  "safe_error": "Focused briefing was rejected: Assembled findings failed financial, comparative, source or overclaim checks: Comparative completeness: net_income requires 2 consecutive annual periods, or a Python comparison source retaining those periods.; Comparative completeness: diluted_eps requires 2 consecutive annual periods, or a Python comparison source retaining those periods.",
+  "diagnostics": {
+    "numerical_validation_result": "not_run",
+    "source_validation_result": "failed",
+    "timestamp_utc": "2026-10-18T00:42:00.518608+00:00",
+    "operation": "research_briefing",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "status": "validation_failed",
+    "http_status": null,
+    "latency_seconds": 3.421,
+    "usage": {
+      "input_tokens": 5670,
+      "output_tokens": 610,
+      "total_tokens": 6280
+    },
+    "parsing_result": "passed",
+    "schema_validation_result": "passed",
+    "validation_stage": "financial_sources",
+    "validation_issues": [],
+    "issues_truncated": false,
+    "warning_codes": [
+      "unsupported_claims_quarantined"
+    ]
+  },
+  "notice": "Rejected output, not validated research. No repair, retry or replacement output."
+}

@@ -1,0 +1,198 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Return a minimal valid JSON example matching the supplied response schema. Use only fictional qualitative text."
+    },
+    {
+      "role": "user",
+      "content": "Use a performance observation and a missing-information question. Leave other sections and citation arrays empty."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "max_tokens": 6000,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "schema": {
+        "$defs": {
+          "Claim": {
+            "additionalProperties": false,
+            "properties": {
+              "text": {
+                "maxLength": 900,
+                "minLength": 12,
+                "title": "Text",
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "fact",
+                  "inference",
+                  "hypothesis",
+                  "question"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "financial_citations": {
+                "items": {
+                  "$ref": "#/$defs/FinancialCitation"
+                },
+                "maxItems": 6,
+                "title": "Financial Citations",
+                "type": "array"
+              },
+              "passage_citations": {
+                "items": {
+                  "$ref": "#/$defs/PassageCitation"
+                },
+                "maxItems": 4,
+                "title": "Passage Citations",
+                "type": "array"
+              }
+            },
+            "required": [
+              "text",
+              "kind",
+              "financial_citations",
+              "passage_citations"
+            ],
+            "title": "Claim",
+            "type": "object"
+          },
+          "FinancialCitation": {
+            "additionalProperties": false,
+            "properties": {
+              "source_id": {
+                "maxLength": 120,
+                "minLength": 1,
+                "title": "Source Id",
+                "type": "string"
+              },
+              "value": {
+                "title": "Value",
+                "type": "number"
+              },
+              "unit": {
+                "maxLength": 30,
+                "minLength": 1,
+                "title": "Unit",
+                "type": "string"
+              },
+              "fiscal_year": {
+                "title": "Fiscal Year",
+                "type": "integer"
+              },
+              "period_start": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Period Start"
+              },
+              "period_end": {
+                "title": "Period End",
+                "type": "string"
+              }
+            },
+            "required": [
+              "source_id",
+              "value",
+              "unit",
+              "fiscal_year",
+              "period_start",
+              "period_end"
+            ],
+            "title": "FinancialCitation",
+            "type": "object"
+          },
+          "PassageCitation": {
+            "additionalProperties": false,
+            "properties": {
+              "source_id": {
+                "maxLength": 120,
+                "minLength": 1,
+                "title": "Source Id",
+                "type": "string"
+              },
+              "quote": {
+                "maxLength": 800,
+                "minLength": 24,
+                "title": "Quote",
+                "type": "string"
+              }
+            },
+            "required": [
+              "source_id",
+              "quote"
+            ],
+            "title": "PassageCitation",
+            "type": "object"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "performance": {
+            "items": {
+              "$ref": "#/$defs/Claim"
+            },
+            "maxItems": 5,
+            "minItems": 1,
+            "title": "Performance",
+            "type": "array"
+          },
+          "business_developments": {
+            "items": {
+              "$ref": "#/$defs/Claim"
+            },
+            "maxItems": 5,
+            "title": "Business Developments",
+            "type": "array"
+          },
+          "investment_considerations": {
+            "items": {
+              "$ref": "#/$defs/Claim"
+            },
+            "maxItems": 5,
+            "title": "Investment Considerations",
+            "type": "array"
+          },
+          "risks": {
+            "items": {
+              "$ref": "#/$defs/Claim"
+            },
+            "maxItems": 5,
+            "title": "Risks",
+            "type": "array"
+          },
+          "missing_information": {
+            "items": {
+              "$ref": "#/$defs/Claim"
+            },
+            "maxItems": 5,
+            "minItems": 1,
+            "title": "Missing Information",
+            "type": "array"
+          }
+        },
+        "required": [
+          "performance",
+          "business_developments",
+          "investment_considerations",
+          "risks",
+          "missing_information"
+        ],
+        "title": "ResearchAnalysis",
+        "type": "object"
+      },
+      "name": "ResearchAnalysis",
+      "strict": true
+    }
+  },
+  "stream": false
+}

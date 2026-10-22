@@ -1,0 +1,9 @@
+{
+  "provenance": "Exact saved Gemini HTTP 200 response from the single approved Microsoft briefing on 2026-10-17; not an authored successful response.",
+  "source": "outputs/msft_brief_retry_2026-10-17/brief.complete_response.json",
+  "confirmed_failure": "missing_information[0].kind omitted; no field was supplied or inferred",
+  "credentials": "No request headers or credentials included",
+  "files": {
+    "brief.complete_response.json": "727608eb9ad8ae9c50cc27715fc2b04d92f7789742236bd47e19fccaec5d5511"
+  }
+}
