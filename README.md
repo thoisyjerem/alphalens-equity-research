@@ -6,6 +6,10 @@ I built AlphaLens as an independent project alongside my MPhil in Finance at the
 
 ![AlphaLens recorded Microsoft research workspace and reconciled cash-flow comparison](docs/assets/01-overview.png)
 
+[Watch the AlphaLens demonstration (100 seconds)](docs/assets/alphalens-demo.mp4)
+
+The recording uses genuine historical Microsoft evidence and a recorded AI research briefing. It demonstrates recorded replay, not live model generation.
+
 Python calculates the financial metrics. An optional language model interprets selected evidence. The genuine recorded demonstration works without an API key or a fresh model request.
 
 Screenshots are genuine 20 and 21 October 2026 captures, checked against the current recorded workflow. [Capture provenance](docs/assets/README.md).
