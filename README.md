@@ -88,7 +88,7 @@ Python 3.12+, Streamlit, Pandas, Plotly, Requests, BeautifulSoup, the OpenAI Pyt
 
 ## Reproducibility
 
-The repository is private, so cloning requires authorised GitHub access. From Windows PowerShell with Python 3.12 installed:
+To run AlphaLens locally, clone the repository and follow the instructions below using Windows PowerShell and Python 3.12.
 
 ```powershell
 git clone https://github.com/thoisyjerem/alphalens-equity-research.git
